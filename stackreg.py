@@ -18,12 +18,12 @@ for file in QUEUE:
     img = io.imread(file) # 3 dimensions : frames x width x height
     sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
 
-    for ch in range(len(img[0])):        
-
+    for ch in range(len(img)):        
+        print(len(img))
         # register to mean of first 10 images
         out = sr.register_transform_stack(img[ch], reference='first', n_frames=10, verbose=True)
         out = out.astype(np.int16)
-        io.imsave('{}_ch{}.tif'.format(file, ch), ch)
+        io.imsave('{}_ch{}.tif'.format(file, ch), out)
 
     print(file,'done!\n\n')
 
