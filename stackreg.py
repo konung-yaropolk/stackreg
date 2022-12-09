@@ -3,30 +3,29 @@ from pystackreg import StackReg
 from skimage import io
 import numpy as np
 
-
-
-img = io.imread('A_0010.tif') # 3 dimensions : frames x width x height
-sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
-
-
-
-ch1=np.array(img[0])
-ch2=np.array(img[1])
+QUEUE = [
+'A_0010.tif',    
+'A_0011.tif',
+'A_0012.tif',
+'A_0013.tif',
+]
 
 
 
-# register to mean of first 10 images
-out_ch1 = sr.register_transform_stack(ch1, reference='first', n_frames=10, verbose=True)
-out_ch2 = sr.register_transform_stack(ch2, reference='first', n_frames=10, verbose=True)
 
-out_ch1 = out_ch1.astype(np.int16)
-out_ch2 = out_ch2.astype(np.int16)
+for file in QUEUE:
 
-io.imsave('A_0010_ch1.tif', out_ch1)
-io.imsave('A_0010_ch2.tif', out_ch2)
+    img = io.imread(file) # 3 dimensions : frames x width x height
+    sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
 
+    for ch in range(len(img[0])):        
 
+        # register to mean of first 10 images
+        out = sr.register_transform_stack(img[ch], reference='first', n_frames=10, verbose=True)
+        out = out.astype(np.int16)
+        io.imsave('{}_ch{}.tif'.format(file, ch), ch)
 
+    print(file,'done!\n\n')
 
 
 
