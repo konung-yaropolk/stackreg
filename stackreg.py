@@ -3,19 +3,21 @@ from pystackreg import StackReg
 from skimage import io
 import numpy as np
 
-QUEUE = [
-'A_0010.tif',    
-'A_0011.tif',
-'A_0012.tif',
-'A_0013.tif',
+QUEUE = [   
+
+# list here tif file names without extentions, divided py comma
+
+'A_0010',    
+'A_0011',
+'A_0012',
+'A_0013',
+
 ]
-
-
 
 
 for file in QUEUE:
 
-    img = io.imread(file) # 3 dimensions : frames x width x height
+    img = io.imread(file+'.tif') # 3 dimensions : frames x width x height
     sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
 
     for ch in range(len(img)):        
@@ -23,11 +25,11 @@ for file in QUEUE:
         # register to mean of first 10 images
         out = sr.register_transform_stack(img[ch], reference='first', n_frames=10, verbose=True)
         out = out.astype(np.int16)
-        io.imsave('{}_ch{}.tif'.format(file, ch), out)
+        io.imsave('{}_ch{}.tif'.format(file, ch+1), out)
 
-    print(file,'done!\n\n')
+    print('\n',file,'done!\n\n')
 
-
+print('Series done!\n')
 
 
 
