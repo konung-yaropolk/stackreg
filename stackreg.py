@@ -26,6 +26,8 @@ MOVING_AVERAGE = 1                 # If moving_average is greater than 1, a movi
 
 TIME_AXIS = 0                      # The axis of the time dimension in original TIFF array (default 0)
 
+DIRECTORY = 'D:/data/project/'     # Path to files, leave empty if in the same directory as this script
+
 QUEUE = [                          # list here TIFF file names without extensions, divided py comma:
 
     'A_0010',
@@ -63,11 +65,11 @@ def main():
     for file in QUEUE:
 
         try:
-            img = skimage.io.imread(file + '.tif')
+            img = skimage.io.imread(DIRECTORY + file + '.tif')
         except:
 
             try:
-                img = skimage.io.imread(file + '.tiff')
+                img = skimage.io.imread(DIRECTORY + file + '.tiff')
             except:
                 print('\nFile', file, 'not found')
                 continue
@@ -78,11 +80,11 @@ def main():
 
                 for ch in range(len(img)):
                     out = reg()
-                    skimage.io.imsave('{}_ch{}_registred.tif'.format(file, ch + 1), out)
+                    skimage.io.imsave(DIRECTORY + '{}_ch{}_registred.tif'.format(file, ch + 1), out)
 
             elif img.ndim == 3:
                 out = reg()
-                skimage.io.imsave('{}_registred.tif'.format(file), out)
+                skimage.io.imsave(DIRECTORY + '{}_registred.tif'.format(file), out)
 
         except:
             print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
