@@ -5,7 +5,7 @@ import numpy as np
 
 QUEUE = [   
 
-# list here tif file names without extentions, divided py comma
+# list here tif file names without extensions, divided py comma
 
 'A_0010',    
 'A_0011',
@@ -21,7 +21,7 @@ for file in QUEUE:
     sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
 
     for ch in range(len(img)):        
-        print(len(img))
+
         # register to mean of first 10 images
         out = sr.register_transform_stack(img[ch], reference='first', n_frames=10, verbose=True)
         out = out.astype(np.int16)
