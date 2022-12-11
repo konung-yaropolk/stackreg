@@ -3,9 +3,31 @@ import pystackreg
 import skimage
 import numpy as np
 
-QUEUE = [
 
-    # list here TIFF file names without extensions, divided py comma:
+
+# Settings block:
+
+DISTORTION_TYPE = 'RIGID_BODY'     # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
+                                   # TRANSLATION        - simple translation
+                                   # RIGID_BODY         - translation + rotation
+                                   # SCALED_ROTATION    - translation + rotation + scaling
+                                   # AFFINE             - translation + rotation + scaling + shearing
+                                   # BILINEAR           -non-linear transformation; does not preserve straight lines
+
+
+REFERENCE_FRAME = 'first'          # first, previous, mean
+
+NUMBER_OF_REF_FRAMES = 10          # If reference is 'first', then this parameter specifies the
+                                   # number of frames from the beginning of the stack that
+                                   # should be averaged to yield the reference image.
+
+MOVING_AVERAGE = 1                 # If moving_average is greater than 1, a moving average of
+                                   # the stack is first created (using a subset size of
+                                   # moving_average) before registration
+
+TIME_AXIS = 0                      # The axis of the time dimension in original TIFF array (default 0)
+
+QUEUE = [                          # list here TIFF file names without extensions, divided py comma:
 
     'A_0010',
     'A_0011',
@@ -13,6 +35,8 @@ QUEUE = [
     'A_0013',
 
 ]
+
+
 
 for file in QUEUE:
 
@@ -26,30 +50,26 @@ for file in QUEUE:
             print('\nFile', file, 'not found')
             continue
 
-    sr = pystackreg.StackReg(
-        pystackreg.StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
+    try:
+        sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
+    except:
+        print('Missing DISTORTION_TYPE parameter, ')
 
     for ch in range(len(img)):
-        # register to mean of first 10 images
-        out = sr.register_transform_stack(img[ch], reference='first', n_frames=10, verbose=True)
+
+        out = sr.register_transform_stack(
+            img[ch],
+            reference=REFERENCE_FRAME,
+            n_frames=NUMBER_OF_REF_FRAMES,
+            moving_average=MOVING_AVERAGE,
+            axis=TIME_AXIS,
+            verbose=True
+            )
+
         out = out.astype(np.int16)
         skimage.io.imsave('{}_ch{}.tif'.format(file, ch + 1), out)
 
     print('\n', file, 'done!\n\n')
 
 print('\nSeries done!\n')
-
-# register each frame to the previous (already registered) one
-# this is what the original StackReg ImageJ plugin uses
-# out_previous = sr.register_transform_stack(img, reference='previous')
-
-# register to first image
-# out_first = sr.register_transform_stack(img, reference='first')
-
-# register to mean image
-# out_mean = sr.register_transform_stack(img, reference='mean')
-
-
-# calculate a moving average of 10 images, then register the moving average to the mean of
-# the first 10 images and transform the original image (not the moving average)
-# out_moving10 = sr.register_transform_stack(img, reference='first', n_frames=10, moving_average = 10)
