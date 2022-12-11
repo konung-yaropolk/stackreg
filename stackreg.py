@@ -35,6 +35,7 @@ QUEUE = [                          # list here TIFF file names without extension
 
 ]
 
+# End of settings block
 
 def main():
 
