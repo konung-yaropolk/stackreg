@@ -4,15 +4,14 @@ import skimage
 import numpy as np
 
 
-
 # Settings block:
 
-DISTORTION_TYPE = 'RIGID_BODY'     # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
+DISTORTION_TYPE = 'TRANSLATION'    # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
                                    # TRANSLATION        - simple translation
                                    # RIGID_BODY         - translation + rotation
                                    # SCALED_ROTATION    - translation + rotation + scaling
                                    # AFFINE             - translation + rotation + scaling + shearing
-                                   # BILINEAR           -non-linear transformation; does not preserve straight lines
+                                   # BILINEAR           - non-linear transformation; does not preserve straight lines
 
 
 REFERENCE_FRAME = 'first'          # first, previous, mean
@@ -37,39 +36,44 @@ QUEUE = [                          # list here TIFF file names without extension
 ]
 
 
+def main():
 
-for file in QUEUE:
-
+    sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
     try:
-        img = skimage.io.imread(file + '.tif')
-    except:
-
-        try:
-            img = skimage.io.imread(file + '.tiff')
-        except:
-            print('\nFile', file, 'not found')
-            continue
-
-    try:
-        sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
         exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
     except:
         print('Missing DISTORTION_TYPE parameter, ')
 
-    for ch in range(len(img)):
+    for file in QUEUE:
 
-        out = sr.register_transform_stack(
-            img[ch],
-            reference=REFERENCE_FRAME,
-            n_frames=NUMBER_OF_REF_FRAMES,
-            moving_average=MOVING_AVERAGE,
-            axis=TIME_AXIS,
-            verbose=True
-            )
+        try:
+            img = skimage.io.imread(file + '.tif')
+        except:
 
-        out = out.astype(np.int16)
-        skimage.io.imsave('{}_ch{}.tif'.format(file, ch + 1), out)
+            try:
+                img = skimage.io.imread(file + '.tiff')
+            except:
+                print('\nFile', file, 'not found')
+                continue
 
-    print('\n', file, 'done!\n\n')
+        for ch in range(len(img)):
 
-print('\nSeries done!\n')
+            out = sr.register_transform_stack(
+                img[ch],
+                reference=REFERENCE_FRAME,
+                n_frames=NUMBER_OF_REF_FRAMES,
+                moving_average=MOVING_AVERAGE,
+                axis=TIME_AXIS,
+                verbose=True
+                )
+
+            out = out.astype(np.int16)
+            skimage.io.imsave('{}_ch{}.tif'.format(file, ch + 1), out)
+
+        print('\n', file, 'done!\n\n')
+
+    print('\nSeries done!\n')
+
+
+if __name__ == '__main__':
+    main()
