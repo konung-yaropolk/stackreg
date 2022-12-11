@@ -1,7 +1,7 @@
 # stackreg
 
 
-Dependencies:
+Dependencies:  
 
-scikit-image
+scikit-image  
 pystackreg
