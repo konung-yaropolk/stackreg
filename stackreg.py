@@ -38,6 +38,20 @@ QUEUE = [                          # list here TIFF file names without extension
 # End of settings block
 
 
+def reg():
+
+    out = sr.register_transform_stack(
+        img[ch],
+        reference=REFERENCE_FRAME,
+        n_frames=NUMBER_OF_REF_FRAMES,
+        moving_average=MOVING_AVERAGE,
+        axis=TIME_AXIS,
+        verbose=True
+    )
+
+    out = out.astype(np.int16)
+    return out
+
 def main():
 
     sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
@@ -58,19 +72,19 @@ def main():
                 print('\nFile', file, 'not found')
                 continue
 
-        for ch in range(len(img)):
+        if img.ndim == 4:
 
-            out = sr.register_transform_stack(
-                img[ch],
-                reference=REFERENCE_FRAME,
-                n_frames=NUMBER_OF_REF_FRAMES,
-                moving_average=MOVING_AVERAGE,
-                axis=TIME_AXIS,
-                verbose=True
-                )
+            for ch in range(len(img)):
+                out = reg()
+                skimage.io.imsave('{}_ch{}_registred.tif'.format(file, ch + 1), out)
 
-            out = out.astype(np.int16)
-            skimage.io.imsave('{}_ch{}.tif'.format(file, ch + 1), out)
+        elif img.ndim == 3:
+            out = reg()
+            skimage.io.imsave('{}_registred.tif'.format(file), out)
+
+        else:
+            print('Wrong TIFF format')
+            continue
 
         print('\n', file, 'done!\n\n')
 
