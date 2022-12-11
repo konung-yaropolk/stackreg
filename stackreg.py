@@ -17,7 +17,10 @@ QUEUE = [
 
 for file in QUEUE:
 
+
     img = io.imread(file+'.tif') # 3 dimensions : frames x width x height
+
+
     sr = StackReg(StackReg.TRANSLATION)  # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
 
     for ch in range(len(img)):        
