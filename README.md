@@ -3,5 +3,5 @@
 
 Dependencies:
 
-numpy
 scikit-image
+pystackreg
