@@ -72,18 +72,20 @@ def main():
                 print('\nFile', file, 'not found')
                 continue
 
-        if img.ndim == 4:
+        try:
 
-            for ch in range(len(img)):
+            if img.ndim == 4:
+
+                for ch in range(len(img)):
+                    out = reg()
+                    skimage.io.imsave('{}_ch{}_registred.tif'.format(file, ch + 1), out)
+
+            elif img.ndim == 3:
                 out = reg()
-                skimage.io.imsave('{}_ch{}_registred.tif'.format(file, ch + 1), out)
+                skimage.io.imsave('{}_registred.tif'.format(file), out)
 
-        elif img.ndim == 3:
-            out = reg()
-            skimage.io.imsave('{}_registred.tif'.format(file), out)
-
-        else:
-            print('Wrong TIFF format')
+        except:
+            print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
             continue
 
         print('\n', file, 'done!\n\n')
