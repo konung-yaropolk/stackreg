@@ -7,7 +7,7 @@ import numpy as np
 # Settings block:
 
 DISTORTION_TYPE = 'TRANSLATION'
-                                    # TRANSLATION        - simple translation
+                                    # TRANSLATION        - translation
                                     # RIGID_BODY         - translation + rotation
                                     # SCALED_ROTATION    - translation + rotation + scaling
                                     # AFFINE             - translation + rotation + scaling + shearing
