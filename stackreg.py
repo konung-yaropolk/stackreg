@@ -103,7 +103,7 @@ def main():
             print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
             continue
 
-        print('\n', file, 'done!\n\n')
+        print('\nFile', file, 'done!\n')
 
     print('\nSeries done!\n')
 
