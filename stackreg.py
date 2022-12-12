@@ -6,7 +6,7 @@ import numpy as np
 
 # Settings block:
 
-DISTORTION_TYPE = 'TRANSLATION'
+DISTORTION_TYPE = 'RIGID_BODY'
                                     # TRANSLATION        - translation
                                     # RIGID_BODY         - translation + rotation
                                     # SCALED_ROTATION    - translation + rotation + scaling
@@ -24,7 +24,7 @@ NUMBER_OF_REF_FRAMES = 10
                                     # should be averaged to yield the reference image.
 
 
-MOVING_AVERAGE = 1
+MOVING_AVERAGE = 10
                                     # If moving_average is greater than 1, a moving average of
                                     # the stack is first created (using a subset size of
                                     # moving_average) before registration
