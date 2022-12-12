@@ -38,7 +38,7 @@ DIRECTORY = 'D:/data/project/'
                                     # Path to files, leave empty if in the same directory as this script
 
 
-QUEUE = [                           # list here TIFF file names without extensions, divided py comma:
+QUEUE = [                           # list here TIFF file names without .tif extensions, divided py comma:
 
     'Your_File_01',
     'Your_File_02',
