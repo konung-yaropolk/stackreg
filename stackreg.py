@@ -6,7 +6,7 @@ import numpy as np
 
 # Settings block:
 
-DISTORTION_TYPE = 'TRANSLATION'    # TRANSLATION, RIGID_BODY, SCALED_ROTATION, AFFINE, BILINEAR
+DISTORTION_TYPE = 'TRANSLATION'
                                    # TRANSLATION        - simple translation
                                    # RIGID_BODY         - translation + rotation
                                    # SCALED_ROTATION    - translation + rotation + scaling
@@ -14,19 +14,29 @@ DISTORTION_TYPE = 'TRANSLATION'    # TRANSLATION, RIGID_BODY, SCALED_ROTATION, A
                                    # BILINEAR           - non-linear transformation; does not preserve straight lines
 
 
-REFERENCE_FRAME = 'first'          # first, previous, mean
+REFERENCE_FRAME = 'first'
+                                   # first, previous, mean
 
-NUMBER_OF_REF_FRAMES = 10          # If reference is 'first', then this parameter specifies the
+
+NUMBER_OF_REF_FRAMES = 10
+                                   # If reference is 'first', then this parameter specifies the
                                    # number of frames from the beginning of the stack that
                                    # should be averaged to yield the reference image.
 
-MOVING_AVERAGE = 1                 # If moving_average is greater than 1, a moving average of
+
+MOVING_AVERAGE = 1
+                                   # If moving_average is greater than 1, a moving average of
                                    # the stack is first created (using a subset size of
                                    # moving_average) before registration
 
-TIME_AXIS = 0                      # The axis of the time dimension in original TIFF array (default 0)
 
-DIRECTORY = 'D:/data/project/'     # Path to files, leave empty if in the same directory as this script
+TIME_AXIS = 0
+                                   # The axis of the time dimension in original TIFF array (default 0)
+
+
+DIRECTORY = 'D:/data/project/'
+                                   # Path to files, leave empty if in the same directory as this script
+
 
 QUEUE = [                          # list here TIFF file names without extensions, divided py comma:
 
@@ -40,10 +50,10 @@ QUEUE = [                          # list here TIFF file names without extension
 # End of settings block
 
 
-def reg():
+def reg(sr, img, ch=None):
 
     out = sr.register_transform_stack(
-        img[ch],
+        img if ch is None else img[ch],
         reference=REFERENCE_FRAME,
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
@@ -53,6 +63,7 @@ def reg():
 
     out = out.astype(np.int16)
     return out
+
 
 def main():
 
@@ -71,7 +82,7 @@ def main():
             try:
                 img = skimage.io.imread(DIRECTORY + file + '.tiff')
             except:
-                print('\nFile', file, 'not found')
+                print('\nFile', DIRECTORY+file, 'not found')
                 continue
 
         try:
@@ -79,12 +90,12 @@ def main():
             if img.ndim == 4:
 
                 for ch in range(len(img)):
-                    out = reg()
-                    skimage.io.imsave(DIRECTORY + '{}_ch{}_registred.tif'.format(file, ch + 1), out)
+                    out = reg(sr, img, ch)
+                    skimage.io.imsave(DIRECTORY + '{}_ch{}_registered.tif'.format(file, ch + 1), out)
 
             elif img.ndim == 3:
-                out = reg()
-                skimage.io.imsave(DIRECTORY + '{}_registred.tif'.format(file), out)
+                out = reg(sr, img)
+                skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
 
         except:
             print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
