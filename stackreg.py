@@ -34,16 +34,15 @@ TIME_AXIS = 0
                                     # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = 'D:/data/project/'
+DIRECTORY = 'D:data/project/'
                                     # Path to files, leave empty if in the same directory as this script
 
 
 QUEUE = [                           # list here TIFF file names without extensions, divided py comma:
 
-    'A_0010',
-    'A_0011',
-    'A_0012',
-    'A_0013',
+    'Your_File_01',
+    'Your_File_02',
+    'Your_File_03',
 
 ]
 
