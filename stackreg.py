@@ -90,10 +90,12 @@ def main():
             if img.ndim == 4:
 
                 for ch in range(len(img)):
+                    print('Working on file', file, ', channel', ch + 1, '...')
                     out = reg(sr, img, ch)
                     skimage.io.imsave(DIRECTORY + '{}_ch{}_registered.tif'.format(file, ch + 1), out)
 
             elif img.ndim == 3:
+                print('Working on file', file, '...')
                 out = reg(sr, img)
                 skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
 
