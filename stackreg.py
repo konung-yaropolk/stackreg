@@ -7,38 +7,42 @@ import numpy as np
 # Settings block:
 
 DISTORTION_TYPE = 'RIGID_BODY'
-                                    # TRANSLATION        - translation
-                                    # RIGID_BODY         - translation + rotation
-                                    # SCALED_ROTATION    - translation + rotation + scaling
-                                    # AFFINE             - translation + rotation + scaling + shearing
-                                    # BILINEAR           - non-linear transformation; does not preserve straight lines
+                                # TRANSLATION        - translation
+                                # RIGID_BODY         - translation + rotation
+                                # SCALED_ROTATION    - translation + rotation + scaling
+                                # AFFINE             - translation + rotation + scaling + shearing
+                                # BILINEAR           - non-linear transformation; does not preserve straight lines
 
 
-REFERENCE_FRAME = 'first'
-                                    # first, previous, mean
+REFERENCE_FRAME = 'previous'
+                                # first, previous, mean
 
 
 NUMBER_OF_REF_FRAMES = 10
-                                    # If reference is 'first', then this parameter specifies the
-                                    # number of frames from the beginning of the stack that
-                                    # should be averaged to yield the reference image.
+                                # If reference is 'first', then this parameter specifies the
+                                # number of frames from the beginning of the stack that
+                                # should be averaged to yield the reference image.
 
 
 MOVING_AVERAGE = 10
-                                    # If moving_average is greater than 1, a moving average of
-                                    # the stack is first created (using a subset size of
-                                    # moving_average) before registration
+                                # If moving_average is greater than 1, a moving average of
+                                # the stack is first created (using a subset size of
+                                # moving_average) before registration
 
 
 TIME_AXIS = 0
-                                    # The axis of the time dimension in original TIFF array (default 0)
+                                # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = 'D:/data/project/'
-                                    # Path to files, leave empty if in the same directory as this script
+DIRECTORY = 'D:/data/files/'
+                                # Path to files, leave empty if in the same directory as this script
+                                    
+                                    
+NOREG = False 
+                                # Just split stack by channels with no registration, set True or False
 
 
-QUEUE = [                           # list here TIFF file names without .tif extensions, divided py comma:
+QUEUE = [                       # list here TIFF file names without .tif extensions, divided py comma:
 
     'Your_File_01',
     'Your_File_02',
@@ -90,13 +94,23 @@ def main():
 
                 for ch in range(len(img)):
                     print('\nWorking on file', file, ', channel', ch + 1, '...')
-                    out = reg(sr, img, ch)
-                    skimage.io.imsave(DIRECTORY + '{}_ch{}_registered.tif'.format(file, ch + 1), out)
+                    
+                    if NOREG == True:                            
+                        out = reg(sr, img, ch)
+                    else:
+                        out = img[ch]
+                            
+                    skimage.io.imsave(
+                        DIRECTORY + '{}_ch{}{}.tif'.format(
+                            file, ch + 1, '_registered' if not NOREG else ''), out)
 
             elif img.ndim == 3:
                 print('\nWorking on file', file, '...')
                 out = reg(sr, img)
                 skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
+            
+            else:
+                raise Exception('Wrong TIFF format')
 
         except:
             print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
