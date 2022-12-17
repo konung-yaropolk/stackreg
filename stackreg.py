@@ -106,7 +106,8 @@ def main():
                             ch + 1,
                             '_registered' if not NOREG else ''
                         ),
-                    out)
+                        out
+                    )
 
             elif img.ndim == 3:
                 print('\nWorking on file', file, '...')
