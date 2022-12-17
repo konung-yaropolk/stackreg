@@ -102,7 +102,11 @@ def main():
                             
                     skimage.io.imsave(
                         DIRECTORY + '{}_ch{}{}.tif'.format(
-                            file, ch + 1, '_registered' if not NOREG else ''), out)
+                            file,
+                            ch + 1,
+                            '_registered' if not NOREG else ''
+                        ),
+                    out)
 
             elif img.ndim == 3:
                 print('\nWorking on file', file, '...')
