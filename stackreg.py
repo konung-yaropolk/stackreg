@@ -34,19 +34,20 @@ TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = '/'
+DIRECTORY = 'data/'
                                 # Path to files, leave empty if in the same directory as this script
                                     
                                     
-NOREG = False 
+NOREG = False
                                 # Just split stack by channels with no registration, set True or False
 
 
 QUEUE = [                       # list here TIFF file names without .tif extensions, divided py comma:
 
-    'Your_File_01',
-    'Your_File_02',
-    'Your_File_03',
+    'A_0008',
+    'A_0009',
+    'A_0010',
+    'A_0011',
 
 ]
 
@@ -95,10 +96,10 @@ def main():
                 for ch in range(len(img)):
                     print('\nWorking on file', file, ', channel', ch + 1, '...')
                     
-                    if NOREG == True:                            
-                        out = reg(sr, img, ch)
-                    else:
+                    if NOREG:
                         out = img[ch]
+                    else:
+                        out = reg(sr, img, ch)
                             
                     skimage.io.imsave(
                         DIRECTORY + '{}_ch{}{}.tif'.format(
