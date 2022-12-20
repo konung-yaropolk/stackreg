@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import multiprocessing as mp
 import numpy as np
 import pystackreg
 import skimage
@@ -42,6 +41,9 @@ DIRECTORY = 'data/'
 NOREG = False
                                 # Just split stack by channels with no registration, set True or False
 
+MULTIPROCESSING = False
+                                # Use all available CPU cores (faster, but need much more RAM)
+
 
 TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
 
@@ -68,6 +70,7 @@ def reg(sr, img, ch=None):
 
     out = out.astype(np.int16)
     return out
+
 
 def process(file, sr):
 
@@ -105,7 +108,9 @@ def process(file, sr):
         elif img.ndim == 3:
             print('\nWorking on file', file, '...')
             out = reg(sr, img)
-            skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
+            skimage.io.imsave(
+                DIRECTORY + '{}_registered.tif'.format(
+                    file), out)
 
         else:
             raise Exception('Wrong TIFF format')
@@ -128,22 +133,23 @@ def main():
     except:
         print('Missing DISTORTION_TYPE parameter, ')
 
-    cores = mp.cpu_count()
-    pool = mp.Pool(processes=cores)
-    print('Found {0} cores, pool of {0} processes created.\n'.format(cores))
+    if MULTIPROCESSING:
+        import multiprocessing as mp
 
-    results = [pool.apply_async(process, args=(file, sr,)) for file in TODO_LIST]
-    output = [p.get() for p in results]
-    #print(output)
-    # for file in TODO_LIST:
-    #    # process(file, sr)
-    #     p = mp.Process(target=process, args=(file, sr,))
-    #     p.start()
-    #     p.join()
-    #     print('parent process:', os.getppid())
-    #     print('process id:', os.getpid())
+        cores = mp.cpu_count()
+        pool = mp.Pool(processes=cores)
 
+        print('Found {0} cpu cores, pool of {0} processes created.\n'.format(cores))
 
+        results = [pool.apply_async(process, args=(file, sr,)) for file in TODO_LIST]
+        output = [p.get() for p in results]
+
+        print(output)
+
+    else:
+
+        for file in TODO_LIST:
+            process(file, sr)
 
     print('\nSeries done!\n')
 
