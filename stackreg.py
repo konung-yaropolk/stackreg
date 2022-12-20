@@ -34,7 +34,7 @@ TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = 'D:/data/files/'
+DIRECTORY = '/'
                                 # Path to files, leave empty if in the same directory as this script
                                     
                                     
