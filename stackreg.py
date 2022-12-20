@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+import multiprocessing
+import numpy as np
 import pystackreg
 import skimage
-import numpy as np
-
+import os
 
 # Settings block:
 
@@ -34,19 +35,20 @@ TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = 'D:/data/files/'
+DIRECTORY = 'data/'
                                 # Path to files, leave empty if in the same directory as this script
 
 
-NOREG = False
+NOREG = True
                                 # Just split stack by channels with no registration, set True or False
 
 
-QUEUE = [                       # list here TIFF file names without .tif extensions, divided py comma:
+TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
 
-    'Your_File_01',
-    'Your_File_02',
-    'Your_File_03',
+    'A_0008',
+    'A_0009',
+    'A_0010',
+    'A_0011',
 
 ]
 
@@ -67,6 +69,56 @@ def reg(sr, img, ch=None):
     out = out.astype(np.int16)
     return out
 
+def process(file, sr):
+
+    try:
+        img = skimage.io.imread(DIRECTORY + file + '.tif')
+    except:
+
+        try:
+            img = skimage.io.imread(DIRECTORY + file + '.tiff')
+        except:
+            print('\nFile', DIRECTORY + file, 'not found')
+            return
+
+    try:
+
+        if img.ndim == 4:
+
+            for ch in range(len(img)):
+                print('\nWorking on file', file, ', channel', ch + 1, '...')
+
+                if NOREG:
+                    out = img[ch]
+                else:
+                    out = reg(sr, img, ch)
+
+                skimage.io.imsave(
+                    DIRECTORY + '{}_ch{}{}.tif'.format(
+                        file,
+                        ch + 1,
+                        '_registered' if not NOREG else ''
+                    ),
+                    out
+                )
+
+        elif img.ndim == 3:
+            print('\nWorking on file', file, '...')
+            out = reg(sr, img)
+            skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
+
+        else:
+            raise Exception('Wrong TIFF format')
+
+    except:
+        print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
+        return
+
+    print('\nFile', file, 'done!\n')
+
+    #print('parent process:', os.getppid())
+    #print('process id:', os.getpid())
+
 
 def main():
 
@@ -76,52 +128,16 @@ def main():
     except:
         print('Missing DISTORTION_TYPE parameter, ')
 
-    for file in QUEUE:
+    cores = multiprocessing.cpu_count()
+    print('Found {0} cores, running in {0} processes.\n'.format(cores))
 
-        try:
-            img = skimage.io.imread(DIRECTORY + file + '.tif')
-        except:
-
-            try:
-                img = skimage.io.imread(DIRECTORY + file + '.tiff')
-            except:
-                print('\nFile', DIRECTORY+file, 'not found')
-                continue
-
-        try:
-
-            if img.ndim == 4:
-
-                for ch in range(len(img)):
-                    print('\nWorking on file', file, ', channel', ch + 1, '...')
-                    
-                    if NOREG:
-                        out = img[ch]
-                    else:
-                        out = reg(sr, img, ch)
-                            
-                    skimage.io.imsave(
-                        DIRECTORY + '{}_ch{}{}.tif'.format(
-                            file,
-                            ch + 1,
-                            '_registered' if not NOREG else ''
-                        ),
-                        out
-                    )
-
-            elif img.ndim == 3:
-                print('\nWorking on file', file, '...')
-                out = reg(sr, img)
-                skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
-            
-            else:
-                raise Exception('Wrong TIFF format')
-
-        except:
-            print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
-            continue
-
-        print('\nFile', file, 'done!\n')
+    for file in TODO_LIST:
+       # process(file, sr)
+        p = multiprocessing.Process(target=process, args=(file, sr,))
+        p.start()
+        p.join()
+        print('parent process:', os.getppid())
+        print('process id:', os.getpid())
 
     print('\nSeries done!\n')
 
