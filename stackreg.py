@@ -34,20 +34,19 @@ TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
 
-DIRECTORY = 'data/'
+DIRECTORY = 'D:/data/files/'
                                 # Path to files, leave empty if in the same directory as this script
-                                    
-                                    
+
+
 NOREG = False
                                 # Just split stack by channels with no registration, set True or False
 
 
 QUEUE = [                       # list here TIFF file names without .tif extensions, divided py comma:
 
-    'A_0008',
-    'A_0009',
-    'A_0010',
-    'A_0011',
+    'Your_File_01',
+    'Your_File_02',
+    'Your_File_03',
 
 ]
 
