@@ -52,7 +52,6 @@ MULTIPROCESSING = False
 import numpy as np
 import pystackreg
 import skimage
-import os
 
 def reg(sr, img, ch=None):
 
@@ -117,9 +116,6 @@ def process(file, sr):
         return
 
     print('\nFile', file, 'done!\n')
-
-    print('parent process:', os.getppid())
-    print('process id:', os.getpid())
 
 
 def main():
