@@ -136,7 +136,7 @@ def main():
         cores = mp.cpu_count()
         pool = mp.Pool(processes=cores)
 
-        print('Found {0} cpu cores, pool of {0} processes created.\n'.format(cores))
+        print('\nFound {0} cpu cores, pool of {0} processes created.\n'.format(cores))
 
         results = [pool.apply_async(process, args=(file, sr,)) for file in TODO_LIST]
         output = [p.get() for p in results]
