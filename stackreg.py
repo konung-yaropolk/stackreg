@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-import numpy as np
-import pystackreg
-import skimage
-import os
 
-# Settings block:
+
+################################# Settings block:
 
 DISTORTION_TYPE = 'AFFINE'
                                 # TRANSLATION        - translation
@@ -35,20 +32,25 @@ NOREG = False
 MULTIPROCESSING = False
                                 # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
-DIRECTORY = ''
+DIRECTORY = 'D:/project/data/'
                                 # Path to files, quoted. Leave empty if files in the same directory as this script
 
 TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
 
-    'A_0008',
-    'A_0009',
-    'A_0010',
-    'A_0011',
+    'Your_File_01',
+    'Your_File_02',
+    'Your_File_03',
+    'Your_File_04',
 
 ]
 
-# End of settings block
+################################# End of settings block
 
+
+import numpy as np
+import pystackreg
+import skimage
+import os
 
 def reg(sr, img, ch=None):
 
