@@ -33,7 +33,7 @@ MULTIPROCESSING = False
                                 # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
 DIRECTORY = 'D:/project/data/'
-                                # Path to files, quoted. Leave empty if files in the same directory as this script
+                                # Path to files. Leave quotes empty if the files in the same directory with this script
 
 TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
 
