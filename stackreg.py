@@ -1,7 +1,20 @@
 #!/usr/bin/env python3
 
 
+
 ################################# Settings block:
+
+TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
+
+    'Your_File_01',
+    'Your_File_02',
+    'Your_File_03',
+    'Your_File_04',
+
+]
+
+DIRECTORY = 'D:/project/data/'
+                                # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'AFFINE'
                                 # TRANSLATION        - translation
@@ -32,19 +45,8 @@ NOREG = False
 MULTIPROCESSING = False
                                 # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
-DIRECTORY = 'D:/project/data/'
-                                # Path to files. Leave quotes empty if the files in the same directory with this script
-
-TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
-
-    'Your_File_01',
-    'Your_File_02',
-    'Your_File_03',
-    'Your_File_04',
-
-]
-
 ################################# End of settings block
+
 
 
 import numpy as np
