@@ -1,52 +1,49 @@
 #!/usr/bin/env python3
+import numpy as np
 import pystackreg
 import skimage
-import numpy as np
-
+import os
 
 # Settings block:
 
-DISTORTION_TYPE = 'RIGID_BODY'
+DISTORTION_TYPE = 'AFFINE'
                                 # TRANSLATION        - translation
                                 # RIGID_BODY         - translation + rotation
                                 # SCALED_ROTATION    - translation + rotation + scaling
                                 # AFFINE             - translation + rotation + scaling + shearing
-                                # BILINEAR           - non-linear transformation; does not preserve straight lines
-
+                                # BILINEAR           - non-linear transformation
 
 REFERENCE_FRAME = 'previous'
                                 # first, previous, mean
-
 
 NUMBER_OF_REF_FRAMES = 10
                                 # If reference is 'first', then this parameter specifies the
                                 # number of frames from the beginning of the stack that
                                 # should be averaged to yield the reference image.
 
-
 MOVING_AVERAGE = 10
                                 # If moving_average is greater than 1, a moving average of
                                 # the stack is first created (using a subset size of
                                 # moving_average) before registration
 
-
 TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
-
-DIRECTORY = 'D:/data/files/'
-                                # Path to files, leave empty if in the same directory as this script
-
-
 NOREG = False
-                                # Just split stack by channels with no registration, set True or False
+                                # Just simple split stack by channels with no registration. Set True or False
 
+MULTIPROCESSING = False
+                                # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
-QUEUE = [                       # list here TIFF file names without .tif extensions, divided py comma:
+DIRECTORY = ''
+                                # Path to files, quoted. Leave empty if in the same directory as this script
 
-    'Your_File_01',
-    'Your_File_02',
-    'Your_File_03',
+TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
+
+    'A_0008',
+    'A_0009',
+    'A_0010',
+    'A_0011',
 
 ]
 
@@ -68,6 +65,59 @@ def reg(sr, img, ch=None):
     return out
 
 
+def process(file, sr):
+
+    try:
+        img = skimage.io.imread(DIRECTORY + file + '.tif')
+    except:
+
+        try:
+            img = skimage.io.imread(DIRECTORY + file + '.tiff')
+        except:
+            print('\nFile', DIRECTORY + file, 'not found')
+            return
+
+    try:
+
+        if img.ndim == 4:
+
+            for ch in range(len(img)):
+                print('\nWorking on file', file, ', channel', ch + 1, '...')
+
+                if NOREG:
+                    out = img[ch]
+                else:
+                    out = reg(sr, img, ch)
+
+                skimage.io.imsave(
+                    DIRECTORY + '{}_ch{}{}.tif'.format(
+                        file,
+                        ch + 1,
+                        '_registered' if not NOREG else ''
+                    ),
+                    out
+                )
+
+        elif img.ndim == 3:
+            print('\nWorking on file', file, '...')
+            out = reg(sr, img)
+            skimage.io.imsave(
+                DIRECTORY + '{}_registered.tif'.format(
+                    file), out)
+
+        else:
+            raise Exception('Wrong TIFF format')
+
+    except:
+        print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
+        return
+
+    print('\nFile', file, 'done!\n')
+
+    print('parent process:', os.getppid())
+    print('process id:', os.getpid())
+
+
 def main():
 
     sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
@@ -76,52 +126,23 @@ def main():
     except:
         print('Missing DISTORTION_TYPE parameter, ')
 
-    for file in QUEUE:
+    if MULTIPROCESSING:
+        import multiprocessing as mp
 
-        try:
-            img = skimage.io.imread(DIRECTORY + file + '.tif')
-        except:
+        cores = mp.cpu_count()
+        pool = mp.Pool(processes=cores)
 
-            try:
-                img = skimage.io.imread(DIRECTORY + file + '.tiff')
-            except:
-                print('\nFile', DIRECTORY+file, 'not found')
-                continue
+        print('Found {0} cpu cores, pool of {0} processes created.\n'.format(cores))
 
-        try:
+        results = [pool.apply_async(process, args=(file, sr,)) for file in TODO_LIST]
+        output = [p.get() for p in results]
 
-            if img.ndim == 4:
+        print(output)
 
-                for ch in range(len(img)):
-                    print('\nWorking on file', file, ', channel', ch + 1, '...')
-                    
-                    if NOREG:
-                        out = img[ch]
-                    else:
-                        out = reg(sr, img, ch)
-                            
-                    skimage.io.imsave(
-                        DIRECTORY + '{}_ch{}{}.tif'.format(
-                            file,
-                            ch + 1,
-                            '_registered' if not NOREG else ''
-                        ),
-                        out
-                    )
+    else:
 
-            elif img.ndim == 3:
-                print('\nWorking on file', file, '...')
-                out = reg(sr, img)
-                skimage.io.imsave(DIRECTORY + '{}_registered.tif'.format(file), out)
-            
-            else:
-                raise Exception('Wrong TIFF format')
-
-        except:
-            print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
-            continue
-
-        print('\nFile', file, 'done!\n')
+        for file in TODO_LIST:
+            process(file, sr)
 
     print('\nSeries done!\n')
 
