@@ -4,7 +4,7 @@
 
 ################################# Settings block:
 
-TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
+TODO_LIST = [                   # list here quoted TIFF file names without .tif extensions, divided py comma:
 
     'Your_File_01',
     'Your_File_02',
@@ -43,7 +43,7 @@ NOREG = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
 MULTIPROCESSING = False
-                                # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
+                                # Use all available CPU cores. Faster, but need much more RAM and can be unstable.
 
 ################################# End of settings block
 
