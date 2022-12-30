@@ -32,7 +32,7 @@ TIME_AXIS = 0
 NOREG = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
                                 # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
 DIRECTORY = 'data/'
