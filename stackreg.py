@@ -6,44 +6,37 @@ import os
 
 # Settings block:
 
-DISTORTION_TYPE = 'RIGID_BODY'
+DISTORTION_TYPE = 'AFFINE'
                                 # TRANSLATION        - translation
                                 # RIGID_BODY         - translation + rotation
                                 # SCALED_ROTATION    - translation + rotation + scaling
                                 # AFFINE             - translation + rotation + scaling + shearing
-                                # BILINEAR           - non-linear transformation; does not preserve straight lines
-
+                                # BILINEAR           - non-linear transformation
 
 REFERENCE_FRAME = 'previous'
                                 # first, previous, mean
-
 
 NUMBER_OF_REF_FRAMES = 10
                                 # If reference is 'first', then this parameter specifies the
                                 # number of frames from the beginning of the stack that
                                 # should be averaged to yield the reference image.
 
-
 MOVING_AVERAGE = 10
                                 # If moving_average is greater than 1, a moving average of
                                 # the stack is first created (using a subset size of
                                 # moving_average) before registration
 
-
 TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
+NOREG = False
+                                # Just simple split stack by channels with no registration. Set True or False
+
+MULTIPROCESSING = True
+                                # Use all available CPU cores. (Faster, but need much more RAM and can be unstable)
 
 DIRECTORY = 'data/'
-                                # Path to files, leave empty if in the same directory as this script
-
-
-NOREG = False
-                                # Just split stack by channels with no registration, set True or False
-
-MULTIPROCESSING = False
-                                # Use all available CPU cores (faster, but need much more RAM)
-
+                                # Path to files, quoted. Leave empty if in the same directory as this script
 
 TODO_LIST = [                   # list here TIFF file names without .tif extensions, divided py comma:
 
