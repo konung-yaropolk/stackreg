@@ -51,9 +51,18 @@ MULTIPROCESSING = False
 
 import numpy as np
 import pystackreg
-import skimage
+import tiffile
 
-def reg(sr, img, ch=None, verbose=False):
+
+sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+
+try:
+    exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
+except:
+    print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
+
+
+def reg(img, ch=None, verbose=False):
 
     out = sr.register_transform_stack(
         img if ch is None else img[ch],
@@ -68,14 +77,14 @@ def reg(sr, img, ch=None, verbose=False):
     return out
 
 
-def process(file, sr):
+def process(file, **kwarg):
 
     try:
-        img = skimage.io.imread(DIRECTORY + file + '.tif')
+        img = tiffile.imread(DIRECTORY + file + '.tif')
     except:
 
         try:
-            img = skimage.io.imread(DIRECTORY + file + '.tiff')
+            img = tiffile.imread(DIRECTORY + file + '.tiff')
         except:
             print('\nFile', DIRECTORY + file, 'not found')
             return
@@ -90,9 +99,9 @@ def process(file, sr):
                 if NOREG:
                     out = img[ch]
                 else:
-                    out = reg(sr, img, ch)
+                    out = reg(img, ch, **kwarg)
 
-                skimage.io.imsave(
+                tiffile.imwrite(
                     DIRECTORY + '{}_ch{}{}.tif'.format(
                         file,
                         ch + 1,
@@ -103,8 +112,8 @@ def process(file, sr):
 
         elif img.ndim == 3:
             print('\nWorking on file', file, '...')
-            out = reg(sr, img)
-            skimage.io.imsave(
+            out = reg(img, **kwarg)
+            tiffile.imwrite(
                 DIRECTORY + '{}_registered.tif'.format(
                     file), out)
 
@@ -120,21 +129,15 @@ def process(file, sr):
 
 def main():
 
-    sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
-    try:
-        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
-    except:
-        print('Missing DISTORTION_TYPE parameter, ')
-
     if MULTIPROCESSING:
         import multiprocessing as mp
 
         cores = mp.cpu_count()
         pool = mp.Pool(processes=cores)
 
-        print('\nFound {0} cpu cores, pool of {0} processes created.\n'.format(cores))
+        print('\n{0} cpu cores found, pool of {0} processes created.\n'.format(cores))
 
-        results = [pool.apply_async(process, args=(file, sr,)) for file in TODO_LIST]
+        results = [pool.apply_async(process, args=(file)) for file in TODO_LIST]
         output = [p.get() for p in results]
 
         print(output)
@@ -142,7 +145,7 @@ def main():
     else:
 
         for file in TODO_LIST:
-            process(file, sr, verbose=True)
+            process(file, verbose=True)
 
     print('\nSeries done!\n')
 
