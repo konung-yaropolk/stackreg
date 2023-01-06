@@ -53,7 +53,7 @@ import numpy as np
 import pystackreg
 import skimage
 
-def reg(sr, img, ch=None):
+def reg(sr, img, ch=None, verbose=False):
 
     out = sr.register_transform_stack(
         img if ch is None else img[ch],
@@ -61,7 +61,7 @@ def reg(sr, img, ch=None):
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
         axis=TIME_AXIS,
-        verbose=True
+        verbose=verbose
     )
 
     out = out.astype(np.int16)
@@ -142,7 +142,7 @@ def main():
     else:
 
         for file in TODO_LIST:
-            process(file, sr)
+            process(file, sr, verbose=True)
 
     print('\nSeries done!\n')
 
