@@ -103,7 +103,8 @@ def process(file, **kwarg):
                     out = reg(img, ch, **kwarg)
 
                 tiffile.imwrite(
-                    DIRECTORY + '{}_ch{}{}.tif'.format(
+                    '{}{}_ch{}{}.tif'.format(
+                        DIRECTORY,
                         file,
                         ch + 1,
                         '_registered' if not NOREG else ''
@@ -115,17 +116,20 @@ def process(file, **kwarg):
             print('\nWorking on file', file, '...')
             out = reg(img, **kwarg)
             tiffile.imwrite(
-                DIRECTORY + '{}_registered.tif'.format(
-                    file), out)
+                '{}{}_registered.tif'.format(
+                    DIRECTORY,
+                    file),
+                out)
 
         else:
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
 
     except Exception as e:
-        print(e)
+        print('Error occured when processing {}:\n{}'.format(file, e))
         return
 
-    print('\nFile', file, 'done!\n')
+    else:
+        print('\nFile', file, 'done!\n')
 
 
 def main():
