@@ -13,7 +13,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tif 
 
 ]
 
-DIRECTORY = 'D:/project/data/'
+DIRECTORY = '/home/lol/Desktop/lol/Coding/stackreg/data/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'AFFINE'
@@ -42,7 +42,7 @@ TIME_AXIS = 0
 NOREG = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
                                 # Use all available CPU cores. Faster, but need much more RAM and can be unstable.
 
 ################################# End of settings block
@@ -137,7 +137,7 @@ def main():
 
         print('\n{0} cpu cores found, pool of {0} processes created.\n'.format(cores))
 
-        results = [pool.apply_async(process, args=(file)) for file in TODO_LIST]
+        results = [pool.apply_async(process, args=(file,)) for file in TODO_LIST]
         output = [p.get() for p in results]
 
         print(output)
