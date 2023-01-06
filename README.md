@@ -5,12 +5,12 @@
 
 ###### Dependencies:  
 
-scikit-image  
+tiffile
 pystackreg
 
 
 ###### To install dependencies run:
-*pip install scikit-image pystackreg*
+*pip install tiffile pystackreg*
 
 
 
