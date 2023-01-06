@@ -119,10 +119,10 @@ def process(file, **kwarg):
                     file), out)
 
         else:
-            raise Exception('Wrong TIFF format')
+            raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
 
-    except:
-        print('\n', file, 'Wrong TIFF format, or check TIME_AXIS parameter')
+    except Exception as e:
+        print(e)
         return
 
     print('\nFile', file, 'done!\n')
