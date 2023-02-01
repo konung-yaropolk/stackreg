@@ -58,12 +58,6 @@ import tiffile
 
 sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
-try:
-    exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
-except:
-    print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
-
-
 def reg(img, ch=None, verbose=False):
 
     out = sr.register_transform_stack(
@@ -134,6 +128,12 @@ def process(file, **kwarg):
 
 
 def main():
+
+    try:
+        exec('global sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
+    except:
+        print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
+
 
     if MULTIPROCESSING:
         import multiprocessing as mp
