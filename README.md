@@ -4,7 +4,6 @@
 
 
 ##### Dependencies:  
-
 tiffile  
 pystackreg  
 
@@ -14,10 +13,9 @@ pystackreg
 
 
 ##### How to use: 
-
-Use notebook file to set parameters and run script
-**OR**
-Set parameters in the script's code and run script executing **run.bat** or use any another way to run it :)
+Use notebook file to set parameters and run script  
+*OR*  
+Set parameters in the script's code and run script executing *run.bat* or use any another way to run it :)  
 
 
 Notice: if the script process was killed by shell, you should extend your RAM or make a swap
