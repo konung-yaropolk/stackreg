@@ -3,15 +3,13 @@
 
 TODO_LIST = [                   # list here quoted TIFF file names without .tif extensions, divided py comma:
 
-    'A_0002_ch1_registered',
     'Your_File_01',
     'Your_File_02',
     'Your_File_03',
-    'Your_File_04',
 
 ]
 
-DIRECTORY = '/home/lol/Desktop/lol/Coding/stackreg/data/'
+DIRECTORY = 'F:/images/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'AFFINE'
