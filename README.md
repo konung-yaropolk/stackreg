@@ -5,8 +5,8 @@
 
 ##### Dependencies:  
 
-tiffile 
-pystackreg 
+tiffile  
+pystackreg  
 
 
 ##### To install dependencies run:
