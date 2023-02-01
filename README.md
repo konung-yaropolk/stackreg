@@ -1,15 +1,15 @@
-## stackreg
+# stackreg
 
 ![Combined Stacks](https://user-images.githubusercontent.com/43002351/210116389-136b9aa4-32b1-4a22-976b-c50d50b02505.gif)
 
 
-# Dependencies:  
+##### Dependencies:  
 
 tiffile 
 pystackreg 
 
 
-# To install dependencies run:
+##### To install dependencies run:
 *pip install tiffile pystackreg*
 
 
