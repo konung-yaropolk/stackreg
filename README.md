@@ -18,4 +18,4 @@ Use notebook file to set parameters and run script
 Set parameters in the script's code and run script executing *run.bat* or use any another way to run it :)  
 
 
-Notice: if the script process was killed by shell, you should extend your RAM or make a swap
+Notice: if the script's process was interrupted by system, you should extend your RAM or make a swap
