@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-
-
-
 ################################# Settings block:
 
 TODO_LIST = [                   # list here quoted TIFF file names without .tif extensions, divided py comma:
