@@ -9,7 +9,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tif 
 
 ]
 
-DIRECTORY = 'F:/images/'
+DIRECTORY = 'D:/images/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'AFFINE'
