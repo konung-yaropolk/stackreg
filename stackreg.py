@@ -125,6 +125,7 @@ def process(file, **kwarg):
 def main():
 
     try:
+        global sr
         exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
     except:
         print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
