@@ -3,13 +3,14 @@
 
 TODO_LIST = [                   # list here quoted TIFF file names without .tif extensions, divided py comma:
 
-    'Your_File_01',
-    'Your_File_02',
-    'Your_File_03',
+'A_0002'
+    # 'Your_File_01',
+    # 'Your_File_02',
+    # 'Your_File_03',
 
 ]
 
-DIRECTORY = 'D:/images/'
+DIRECTORY = 'data/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'AFFINE'
@@ -54,11 +55,11 @@ import tiffile
 sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
 
-def transform(img, transform_matrix):
+def transform(img, transform_matrix, ch=None):
 
     out = sr.transform_stack(
         img if ch is None else img[ch],
-        tmats=transform_matrix
+        tmats=transform_matrix,
     )
     out = out.astype(np.int16)
     return out
@@ -94,10 +95,8 @@ def process(file, **kwarg):
     try:
 
         if img.ndim == 4:
-
-            #assert img0.shape == img1.shape
-
-            transform_matrix_list = np.array() # dtype=np.int16
+            #assert
+            transform_matrix_list = np.empty((1,len(img[0]),3,0))
 
             for ch in range(len(img)):
                 print('\nRegistration file', file, ', channel', ch + 1, '...')
@@ -117,33 +116,33 @@ def process(file, **kwarg):
                 #     out
                 # )
 
-                transform_matrix_list.append(
-                    register(
+                transform_matrix_list = np.append(
+                    transform_matrix_list,
+                    [register(
                         img,
                         ch,
-                        **kwarg
-                        )
-                    )
+                        **kwarg)],
+                    axis=-1)
 
             transform_matrix = np.mean(
-                np.array(
-                    transform_matrix_list
-                    ), axis=0
-                )
+                transform_matrix_list,
+                axis=0)
 
             for ch in range(len(img)):
                 print('\nTransforming file', file, ', channel', ch + 1, '...')
-                out = transform(img, transform_matrix)
+                out = transform(
+                    img,
+                    transform_matrix,
+                    ch,
+                )
 
                 tiffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
                         DIRECTORY,
                         file,
                         ch + 1,
-                        '_registered' if not NOREG else ''
-                    ),
-                    out
-                )
+                        '_registered' if not NOREG else ''),
+                    out)
 
 
 
