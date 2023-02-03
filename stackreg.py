@@ -76,7 +76,6 @@ def register(img, ch=None, verbose=False):
         verbose=verbose
     )
 
-    #transform_matrix = transform_matrix.astype(np.int16)
     return transform_matrix
 
 
