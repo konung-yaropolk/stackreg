@@ -58,7 +58,7 @@ sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 def transform(img, transform_matrix, ch=None):
 
     out = sr.transform_stack(
-        img if ch is None else img[ch],
+        img # if ch is None else img[ch],
         tmats=transform_matrix,
     )
     out = out.astype(np.int16)
@@ -68,7 +68,7 @@ def transform(img, transform_matrix, ch=None):
 def register(img, ch=None, verbose=False):
 
     transform_matrix = sr.register_stack(
-        img if ch is None else img[ch],
+        img # if ch is None else img[ch],
         reference=REFERENCE_FRAME,
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
@@ -118,22 +118,22 @@ def process(file, **kwarg):
                 transform_matrix_list = np.append(
                     transform_matrix_list,
                     [register(
-                        img,
+                        img[ch],
                         ch,
                         **kwarg)],
-                    axis=-1)
+                    axis=-1) if not NOREG else None
 
             transform_matrix = np.mean(
                 transform_matrix_list,
-                axis=0)
+                axis=0) if not NOREG else None
 
             for ch in range(len(img)):
                 print('\nTransforming file', file, ', channel', ch + 1, '...')
                 out = transform(
-                    img,
+                    img[ch],
                     transform_matrix,
                     ch,
-                )
+                ) if not NOREG else img[ch]
 
                 tiffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
@@ -158,11 +158,22 @@ def process(file, **kwarg):
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
 
     except Exception as e:
-        print('Error occured when processing {}:\n{}'.format(file, e))
+        print('An error occured when processing {}:\n{}'.format(file, e))
         return
 
     else:
         print('\nFile', file, 'done!\n')
+
+    finally:    # immediatly clearing memory used by np arrays
+        img = None
+        del img
+        transform_matrix_list = None
+        del transform_matrix_list
+        transform_matrix = None
+        del transform_matrix
+        out = None
+        del out
+
 
 
 def main():
