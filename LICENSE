@@ -1,3 +1,5 @@
+stackreg:
+
 MIT License
 
 Copyright (c) 2022 konung-yaropolk
@@ -22,7 +24,10 @@ SOFTWARE.
 
 
 
-pystackreg package License:
+pystackreg lib:
+
+This is a port of the original Java code by Philippe Thevenaz to C++ with a
+Python wrapper around it. All credit goes to the original author:
 
 /**
  * C++ Port of the TurboReg/StackReg ImageJ Plugin
