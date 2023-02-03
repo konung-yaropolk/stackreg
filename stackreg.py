@@ -57,7 +57,7 @@ sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 def transform(img, transform_matrix):
 
     out = sr.transform_stack(
-        img, # if ch is None else img[ch],
+        img,
         tmats=transform_matrix,
     )
     out = out.astype(np.int16)
@@ -67,7 +67,7 @@ def transform(img, transform_matrix):
 def register(img, verbose=False):
 
     transform_matrix = sr.register_stack(
-        img, # if ch is None else img[ch],
+        img,
         reference=REFERENCE_FRAME,
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
@@ -87,7 +87,7 @@ def process(file, **kwarg):
         try:
             img = tiffile.imread(DIRECTORY + file + '.tiff')
         except:
-            print('\nFile', DIRECTORY + file, 'not found')
+            print('\nFile:', DIRECTORY + file, 'not found')
             return
 
     try:
@@ -134,15 +134,25 @@ def process(file, **kwarg):
                     out)
 
 
+        elif img.ndim == 3 and not NOREG:
 
-        elif img.ndim == 3:
             print('\nWorking on file', file, '...')
-            out = register(img, **kwarg)
+
+            out = transform(
+                        img,
+                        register(
+                            img,
+                            **kwarg)
+                        )
+
             tiffile.imwrite(
                 '{}{}_registered.tif'.format(
                     DIRECTORY,
                     file),
                 out)
+
+        elif img.ndim == 3 and NOREG == True:
+            raise Exception('NOREG option is activated, there is nothing to do with the file')
 
         else:
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
@@ -185,7 +195,7 @@ def main():
         results = [pool.apply_async(process, args=(file,)) for file in TODO_LIST]
         output = [p.get() for p in results]
 
-        print('Errors: ',output)
+        print('Errors:',output)
 
     else:
 
