@@ -1,5 +1,4 @@
 stackreg:
-
 MIT License
 
 Copyright (c) 2022 konung-yaropolk
@@ -25,6 +24,7 @@ SOFTWARE.
 
 
 pystackreg lib:
+Author information
 
 This is a port of the original Java code by Philippe Thevenaz to C++ with a
 Python wrapper around it. All credit goes to the original author:
@@ -63,6 +63,9 @@ Python wrapper around it. All credit goes to the original author:
 | Other relevant on-line publications are available at
 | http://bigwww.epfl.ch/publications/
 \===================================================================*/
+
+
+License
 
 /*====================================================================
 | You are free to use this software for commercial and non-commercial
