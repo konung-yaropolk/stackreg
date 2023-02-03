@@ -12,7 +12,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tif 
 DIRECTORY = 'D:/images/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
-DISTORTION_TYPE = 'BILINEAR'
+DISTORTION_TYPE = 'AFFINE'
                                 # TRANSLATION        - translation
                                 # RIGID_BODY         - translation + rotation
                                 # SCALED_ROTATION    - translation + rotation + scaling
@@ -53,9 +53,20 @@ import tiffile
 
 sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
-def reg(img, ch=None, verbose=False):
 
-    out = sr.register_transform_stack(
+def transform(img, transform_matrix):
+
+    out = sr.transform_stack(
+        img if ch is None else img[ch],
+        tmats=transform_matrix
+    )
+    out = out.astype(np.int16)
+    return out
+
+
+def register(img, ch=None, verbose=False):
+
+    transform_matrix = sr.register_stack(
         img if ch is None else img[ch],
         reference=REFERENCE_FRAME,
         n_frames=NUMBER_OF_REF_FRAMES,
@@ -64,8 +75,8 @@ def reg(img, ch=None, verbose=False):
         verbose=verbose
     )
 
-    out = out.astype(np.int16)
-    return out
+    #transform_matrix = transform_matrix.astype(np.int16)
+    return transform_matrix
 
 
 def process(file, **kwarg):
@@ -84,13 +95,45 @@ def process(file, **kwarg):
 
         if img.ndim == 4:
 
-            for ch in range(len(img)):
-                print('\nWorking on file', file, ', channel', ch + 1, '...')
+            #assert img0.shape == img1.shape
 
-                if NOREG:
-                    out = img[ch]
-                else:
-                    out = reg(img, ch, **kwarg)
+            transform_matrix_list = np.array() # dtype=np.int16
+
+            for ch in range(len(img)):
+                print('\nRegistration file', file, ', channel', ch + 1, '...')
+
+                # if NOREG:
+                #     out = img[ch]
+                # else:
+                #     out = transform(img, register(img, ch, **kwarg))
+
+                # tiffile.imwrite(
+                #     '{}{}_ch{}{}.tif'.format(
+                #         DIRECTORY,
+                #         file,
+                #         ch + 1,
+                #         '_registered' if not NOREG else ''
+                #     ),
+                #     out
+                # )
+
+                transform_matrix_list.append(
+                    register(
+                        img,
+                        ch,
+                        **kwarg
+                        )
+                    )
+
+            transform_matrix = np.mean(
+                np.array(
+                    transform_matrix_list
+                    ), axis=0
+                )
+
+            for ch in range(len(img)):
+                print('\nTransforming file', file, ', channel', ch + 1, '...')
+                out = transform(img, transform_matrix)
 
                 tiffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
@@ -102,9 +145,11 @@ def process(file, **kwarg):
                     out
                 )
 
+
+
         elif img.ndim == 3:
             print('\nWorking on file', file, '...')
-            out = reg(img, **kwarg)
+            out = register(img, **kwarg)
             tiffile.imwrite(
                 '{}{}_registered.tif'.format(
                     DIRECTORY,
@@ -125,7 +170,6 @@ def process(file, **kwarg):
 def main():
 
     try:
-        global sr
         exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
     except:
         print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
