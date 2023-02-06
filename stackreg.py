@@ -58,8 +58,7 @@ def transform(img, transform_matrix):
 
     out = sr.transform_stack(
         img,
-        tmats=transform_matrix,
-    )
+        tmats=transform_matrix)
     out = out.astype(np.int16)
     return out
 
@@ -72,8 +71,7 @@ def register(img, verbose=False):
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
         axis=TIME_AXIS,
-        verbose=verbose
-    )
+        verbose=verbose)
 
     return transform_matrix
 
