@@ -12,7 +12,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tif 
 DIRECTORY = 'data/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
-DISTORTION_TYPE = 'AFFINE'
+DISTORTION_TYPE = 'BILINEAR'
                                 # TRANSLATION        - translation
                                 # RIGID_BODY         - translation + rotation
                                 # SCALED_ROTATION    - translation + rotation + scaling
@@ -52,7 +52,6 @@ import tiffile
 
 
 sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
-
 
 def transform(img, transform_matrix):
 
@@ -98,7 +97,7 @@ def process(file, **kwarg):
             if not NOREG:
 
                 for ch in range(len(img)):
-                    print('\nRegistration file', file, ', channel', ch + 1, '...')
+                    print('\nRegistrating file', file, ', channel', ch + 1, '...')
 
                     transform_matrix_list = np.append(
                         transform_matrix_list,
