@@ -14,7 +14,7 @@ pystackreg
 
 ##### How to use: 
 Use notebook file to set parameters and run the script  
-*OR*  
+*or*  
 Set parameters in the script's body and run the script executing ``run.bat`` or use any another way to do it :)  
 
 
