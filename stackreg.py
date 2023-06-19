@@ -19,7 +19,7 @@ DISTORTION_TYPE = 'BILINEAR'
                                 # AFFINE             - translation + rotation + scaling + shearing
                                 # BILINEAR           - non-linear transformation
 
-REFERENCE_FRAME = 'previous'
+REFERENCE_FRAME = 'first'
                                 # first, previous, mean
 
 NUMBER_OF_REF_FRAMES = 10
@@ -35,7 +35,7 @@ MOVING_AVERAGE = 10
 TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
-NOREG = False
+SPLIT_ONLY = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
 MULTIPROCESSING = False
@@ -94,7 +94,7 @@ def process(file, **kwarg):
             transform_matrix_list = np.empty(1, len(img[0]), 3, 0)
             transform_matrix = np.array([])
 
-            if not NOREG:
+            if not SPLIT_ONLY:
 
                 for ch in range(len(img)):
                     print('\nRegistrating file', file, ', channel', ch + 1, '...')
@@ -112,7 +112,7 @@ def process(file, **kwarg):
 
             for ch in range(len(img)):
 
-                if not NOREG:
+                if not SPLIT_ONLY:
 
                     print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
@@ -128,11 +128,11 @@ def process(file, **kwarg):
                         DIRECTORY,
                         file,
                         ch + 1,
-                        '_registered' if not NOREG else ''),
+                        '_registered' if not SPLIT_ONLY else ''),
                     out)
 
 
-        elif img.ndim == 3 and not NOREG:
+        elif img.ndim == 3 and not SPLIT_ONLY:
 
             print('\nWorking on file', file, '...')
 
@@ -143,14 +143,16 @@ def process(file, **kwarg):
                             **kwarg)
                         )
 
+            print('\nWriting to file...')
+
             tiffile.imwrite(
                 '{}{}_registered.tif'.format(
                     DIRECTORY,
                     file),
                 out)
 
-        elif img.ndim == 3 and NOREG == True:
-            raise Exception('NOREG option is activated, there is nothing to do with the file')
+        elif img.ndim == 3 and SPLIT_ONLY == True:
+            raise Exception('SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
 
         else:
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
