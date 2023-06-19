@@ -91,7 +91,7 @@ def process(file, **kwarg):
 
         if img.ndim == 4:
 
-            transform_matrix_list = np.empty(1, len(img[0]), 3, 0)
+            transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
             transform_matrix = np.array([])
 
             if not SPLIT_ONLY:
