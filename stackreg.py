@@ -1,54 +1,9 @@
 #!/usr/bin/env python3
-################################# Settings block:
-
-TODO_LIST = [                   # list here quoted TIFF file names without .tiff extensions, separated by comma:
-
-    # 'Your_File_01',
-    # 'Your_File_02',
-    # 'Your_File_03',
-
-]
-
-DIRECTORY = 'data/'
-                                # Path to files. Leave quotes empty if the files in the same directory with this script
-
-DISTORTION_TYPE = 'BILINEAR'
-                                # TRANSLATION        - translation
-                                # RIGID_BODY         - translation + rotation
-                                # SCALED_ROTATION    - translation + rotation + scaling
-                                # AFFINE             - translation + rotation + scaling + shearing
-                                # BILINEAR           - non-linear transformation
-
-REFERENCE_FRAME = 'first'
-                                # first, previous, mean
-
-NUMBER_OF_REF_FRAMES = 10
-                                # If reference is 'first', then this parameter specifies the
-                                # number of frames from the beginning of the stack that
-                                # should be averaged to yield the reference image.
-
-MOVING_AVERAGE = 10
-                                # If moving_average is greater than 1, a moving average of
-                                # the stack is first created (using a subset size of
-                                # moving_average) before registration
-
-TIME_AXIS = 0
-                                # The axis of the time dimension in original TIFF array (default 0)
-
-SPLIT_ONLY = False
-                                # Just simple split stack by channels with no registration. Set True or False
-
-MULTIPROCESSING = False
-                                # Use all available CPU cores.
-                                # Faster, but need much more RAM so can be unstable.
-
-################################# End of settings block
-
-
 
 import numpy as np
 import pystackreg
 import tiffile
+import settings as s
 
 
 sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
@@ -66,10 +21,10 @@ def register(img, verbose=False):
 
     transform_matrix = sr.register_stack(
         img,
-        reference=REFERENCE_FRAME,
-        n_frames=NUMBER_OF_REF_FRAMES,
-        moving_average=MOVING_AVERAGE,
-        axis=TIME_AXIS,
+        reference=s.REFERENCE_FRAME,
+        n_frames=s.NUMBER_OF_REF_FRAMES,
+        moving_average=s.MOVING_AVERAGE,
+        axis=s.TIME_AXIS,
         verbose=verbose)
 
     return transform_matrix
@@ -78,13 +33,13 @@ def register(img, verbose=False):
 def process(file, **kwarg):
 
     try:
-        img = tiffile.imread(DIRECTORY + file + '.tif')
+        img = tiffile.imread(s.DIRECTORY + file + '.tif')
     except:
 
         try:
-            img = tiffile.imread(DIRECTORY + file + '.tiff')
+            img = tiffile.imread(s.DIRECTORY + file + '.tiff')
         except:
-            print('\nFile:', DIRECTORY + file, 'not found')
+            print('\nFile:', s.DIRECTORY + file, 'not found')
             return
 
     try:
@@ -94,7 +49,7 @@ def process(file, **kwarg):
             transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
             transform_matrix = np.array([])
 
-            if not SPLIT_ONLY:
+            if not s.SPLIT_ONLY:
 
                 for ch in range(len(img)):
                     print('\nRegistrating file', file, ', channel', ch + 1, '...')
@@ -112,7 +67,7 @@ def process(file, **kwarg):
 
             for ch in range(len(img)):
 
-                if not SPLIT_ONLY:
+                if not s.SPLIT_ONLY:
 
                     print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
@@ -125,14 +80,14 @@ def process(file, **kwarg):
 
                 tiffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
-                        DIRECTORY,
+                        s.DIRECTORY,
                         file,
                         ch + 1,
-                        '_registered' if not SPLIT_ONLY else ''),
+                        '_registered' if not s.SPLIT_ONLY else ''),
                     out)
 
 
-        elif img.ndim == 3 and not SPLIT_ONLY:
+        elif img.ndim == 3 and not s.SPLIT_ONLY:
 
             print('\nWorking on file', file, '...')
 
@@ -147,11 +102,11 @@ def process(file, **kwarg):
 
             tiffile.imwrite(
                 '{}{}_registered.tif'.format(
-                    DIRECTORY,
+                    s.DIRECTORY,
                     file),
                 out)
 
-        elif img.ndim == 3 and SPLIT_ONLY == True:
+        elif img.ndim == 3 and s.SPLIT_ONLY == True:
             raise Exception('SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
 
         else:
@@ -179,12 +134,12 @@ def process(file, **kwarg):
 def main():
 
     try:
-        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
+        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(s.DISTORTION_TYPE))
     except:
         print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
 
 
-    if MULTIPROCESSING:
+    if s.MULTIPROCESSING:
         import multiprocessing as mp
 
         cores = mp.cpu_count()
@@ -192,14 +147,14 @@ def main():
 
         print('\n{0} cpu cores found, pool of {0} processes created.\n'.format(cores))
 
-        results = [pool.apply_async(process, args=(file,)) for file in TODO_LIST]
+        results = [pool.apply_async(process, args=(file,)) for file in s.TODO_LIST]
         output = [p.get() for p in results]
 
         print('Errors:',output)
 
     else:
 
-        for file in TODO_LIST:
+        for file in s.TODO_LIST:
             process(file, verbose=True)
 
     print('\nSeries done!\n')
