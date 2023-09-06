@@ -30,16 +30,25 @@ def register(img, verbose=False):
     return transform_matrix
 
 
-def process(file, **kwarg):
+def process(
+        file, 
+        directory=s.DIRECTORY,
+        distortion_type=s.DISTORTION_TYPE,
+        reference_frame=s.REFERENCE_FRAME,
+        number_of_ref_frames=s.NUMBER_OF_REF_FRAMES,
+        moving_average=s.MOVING_AVERAGE,
+        time_axis=s.TIME_AXIS,
+        split_only=s.SPLIT_ONLY
+        ):
 
     try:
-        img = tiffile.imread(s.DIRECTORY + file + '.tif')
+        img = tiffile.imread(directory + file + '.tif')
     except:
 
         try:
-            img = tiffile.imread(s.DIRECTORY + file + '.tiff')
+            img = tiffile.imread(directory + file + '.tiff')
         except:
-            print('\nFile:', s.DIRECTORY + file, 'not found')
+            print('\nFile:', directory + file, 'not found')
             return
 
     try:
@@ -49,7 +58,7 @@ def process(file, **kwarg):
             transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
             transform_matrix = np.array([])
 
-            if not s.SPLIT_ONLY:
+            if not split_only:
 
                 for ch in range(len(img)):
                     print('\nRegistrating file', file, ', channel', ch + 1, '...')
@@ -67,7 +76,7 @@ def process(file, **kwarg):
 
             for ch in range(len(img)):
 
-                if not s.SPLIT_ONLY:
+                if not split_only:
 
                     print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
@@ -80,14 +89,14 @@ def process(file, **kwarg):
 
                 tiffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
-                        s.DIRECTORY,
+                        directory,
                         file,
                         ch + 1,
-                        '_registered' if not s.SPLIT_ONLY else ''),
+                        '_registered' if not split_only else ''),
                     out)
 
 
-        elif img.ndim == 3 and not s.SPLIT_ONLY:
+        elif img.ndim == 3 and not split_only:
 
             print('\nWorking on file', file, '...')
 
@@ -102,11 +111,11 @@ def process(file, **kwarg):
 
             tiffile.imwrite(
                 '{}{}_registered.tif'.format(
-                    s.DIRECTORY,
+                    directory,
                     file),
                 out)
 
-        elif img.ndim == 3 and s.SPLIT_ONLY == True:
+        elif img.ndim == 3 and split_only == True:
             raise Exception('SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
 
         else:
