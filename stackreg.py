@@ -42,6 +42,11 @@ def process(
         ):
 
     try:
+        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(distortion_type))
+    except:
+        print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
+
+    try:
         img = tiffile.imread(directory + file + '.tif')
     except:
 
@@ -139,14 +144,7 @@ def process(
         del out
 
 
-
 def main():
-
-    try:
-        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(s.DISTORTION_TYPE))
-    except:
-        print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
-
 
     if s.MULTIPROCESSING:
         import multiprocessing as mp
