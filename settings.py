@@ -86,5 +86,13 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+# # Organoid project:
+#
+# 'Organoids/Alzheimer mRuby applications_0001',
+# 'Organoids/Control mRuby applications_0001',
+# 'Organoids/Alzheimer mtRGeco applications_0001',
+# 'Organoids/Control mtRGeco applications_0001',
+
+
 ]
 
