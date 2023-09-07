@@ -51,7 +51,7 @@ def process(
         exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
     except:
         print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
-    print(file)
+
     try:
         img = tiffile.imread(DIRECTORY + file + '.tif')
     except:
@@ -174,9 +174,8 @@ def main():
         print('Errors:',output)
 
     else:
-
+        
         for line in s.TODO_LIST:
-            print(line)
             process(line, verbose=True)
 
     print('\nSeries done!\n')
