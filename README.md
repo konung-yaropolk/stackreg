@@ -15,7 +15,7 @@ pystackreg
 ##### How to use: 
 Use notebook file to set parameters and run the script  
 *or*  
-Set parameters in the script's body and run the script executing ``run.bat`` or use any another way to do it :)  
+Set parameters in the settings.py file and run the script executing ``stackreg.py`` or simply running ``run.bat`` (only for Windows)
 
 
 Notice: if the script's process was interrupted by system, you should extend your RAM or make a swap
