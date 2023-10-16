@@ -176,7 +176,11 @@ def main():
     else:
         
         for line in s.TODO_LIST:
-            process(line, verbose=True)
+
+            if isinstance(line, list):                
+                process(line[0], **line[1], verbose=True)
+            else:
+                process(line, verbose=True)
 
     print('\nSeries done!\n')
 
