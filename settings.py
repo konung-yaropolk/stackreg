@@ -30,7 +30,7 @@ TIME_AXIS = 0
 SPLIT_ONLY = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
                                 # Use all available CPU cores.
                                 # Faster, but need much more RAM so can be unstable.
 

@@ -168,7 +168,7 @@ def main():
 
         print('\n{0} cpu cores found, pool of {0} processes created.\n'.format(cores))
 
-        results = [pool.apply_async(process, args=(line,)) for line in s.TODO_LIST]
+        results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]
 
         print('Errors:',output)
