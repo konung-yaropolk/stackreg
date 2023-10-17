@@ -68,13 +68,13 @@ def process(
             return e
 
     try:
-
+        # algorytm for 4-dimentional tiff:
         if img.ndim == 4:
 
             transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
             transform_matrix = np.array([])
 
-            if not SPLIT_ONLY:    # Bad construction, to review
+            if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
                 for ch in range(len(img)):
                     print('\nRegistrating file', file, ', channel', ch + 1, '...')
@@ -97,7 +97,7 @@ def process(
 
             for ch in range(len(img)):
 
-                if not SPLIT_ONLY:    # Bad construction, to review
+                if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
                     print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
@@ -116,8 +116,8 @@ def process(
                         '_registered' if not SPLIT_ONLY else ''),
                     out)
 
-
-        elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction, to review
+        # algorytm for 3-dimentional tiff:
+        elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
             print('\nWorking on file', file, '...')
 
@@ -154,8 +154,9 @@ def process(
 
     else:
         print('\nFile', file, 'done!\n')
-
-    finally:    # immediatly clearing memory used by np arrays
+        
+    # immediatly clearing memory used by np arrays
+    finally:
         img = None
         del img
         transform_matrix_list = None
