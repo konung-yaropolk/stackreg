@@ -2,28 +2,30 @@
 
 import numpy as np
 import pystackreg
-import tiffile
+import tifffile
 import settings as s
 
 
 
-def transform(img, sr, transform_matrix):
+def transform(
+        img, 
+        sr, 
+        transform_matrix):
 
-    out = sr.transform_stack(
-        img,
-        tmats=transform_matrix)
+    out = sr.transform_stack(img, tmats=transform_matrix)
     out = out.astype(np.int16)
 
     return out
 
 
-def register(img, 
-            sr,
-            REFERENCE_FRAME,
-            NUMBER_OF_REF_FRAMES,
-            MOVING_AVERAGE,
-            TIME_AXIS,
-            verbose=False):
+def register(
+        img, 
+        sr,
+        REFERENCE_FRAME,
+        NUMBER_OF_REF_FRAMES,
+        MOVING_AVERAGE,
+        TIME_AXIS,
+        verbose=False):
 
     transform_matrix = sr.register_stack(
         img,
@@ -32,11 +34,10 @@ def register(img,
         moving_average=MOVING_AVERAGE,
         axis=TIME_AXIS,
         verbose=verbose)
-
     return transform_matrix
 
 
-def process(
+def process(        
         file, 
         DIRECTORY=s.DIRECTORY,
         DISTORTION_TYPE=s.DISTORTION_TYPE,
@@ -57,11 +58,11 @@ def process(
 
     # Bad construction, to review:
     try:
-        img = tiffile.imread(DIRECTORY + file + '.tif')
+        img = tifffile.imread(DIRECTORY + file + '.tif')
     except:
 
         try:
-            img = tiffile.imread(DIRECTORY + file + '.tiff')
+            img = tifffile.imread(DIRECTORY + file + '.tiff')
         except Exception as e:
             print('\nFile:', DIRECTORY + file, 'not found')
             return e
@@ -70,7 +71,7 @@ def process(
 
         if img.ndim == 4:
 
-            transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
+            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
             transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction, to review
@@ -107,8 +108,7 @@ def process(
                 else:
                     out = img[ch]
 
-
-                tiffile.imwrite(
+                tifffile.imwrite(
                     '{}{}_ch{}{}.tif'.format(
                         DIRECTORY,
                         file,
@@ -136,7 +136,7 @@ def process(
 
             print('\nWriting to file...')
 
-            tiffile.imwrite(
+            tifffile.imwrite(
                 '{}{}_registered.tif'.format(
                     DIRECTORY,
                     file),
