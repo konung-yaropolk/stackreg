@@ -47,18 +47,6 @@ def process(
         SPLIT_ONLY=s.SPLIT_ONLY,
         verbose=False):
    
-    # if DISTORTION_TYPE in (
-    #     'TRANSLATION',
-    #     'RIGID_BODY',
-    #     'SCALED_ROTATION',
-    #     'AFFINE',
-    #     'BILINEAR'):
-        
-    #     exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
-    # else:
-    #     sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
-    #     print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
-
     match DISTORTION_TYPE:
         case 'TRANSLATION'          : sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
         case 'RIGID_BODY'           : sr = pystackreg.StackReg(pystackreg.StackReg.RIGID_BODY)
