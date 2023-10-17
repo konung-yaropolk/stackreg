@@ -81,7 +81,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # # Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine:
 
 # ['A_0001', 
-#     {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
+#     {'DIRECTORY' : 'Fs:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
 #     'REFERENCE_FRAME' : 'first'}
 # ],
 

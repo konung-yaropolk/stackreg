@@ -15,6 +15,7 @@ def transform(img, transform_matrix):
         img,
         tmats=transform_matrix)
     out = out.astype(np.int16)
+    
     return out
 
 
@@ -52,15 +53,16 @@ def process(
     except:
         print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
 
+    # Bad construction, to review:
     try:
         img = tiffile.imread(DIRECTORY + file + '.tif')
     except:
 
         try:
             img = tiffile.imread(DIRECTORY + file + '.tiff')
-        except:
+        except Exception as e:
             print('\nFile:', DIRECTORY + file, 'not found')
-            return
+            return e
 
     try:
 
@@ -142,7 +144,7 @@ def process(
 
     except Exception as e:
         print('An error occured when processing {}:\n{}'.format(file, e))
-        return
+        return e
 
     else:
         print('\nFile', file, 'done!\n')
@@ -171,7 +173,7 @@ def main():
         results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]
 
-        print('Errors:',output)
+        print('\nErrors:',output)
 
     else:
         
