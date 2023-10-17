@@ -7,19 +7,18 @@ import settings as s
 
 
 
-sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
-
-def transform(img, transform_matrix):
+def transform(img, sr, transform_matrix):
 
     out = sr.transform_stack(
         img,
         tmats=transform_matrix)
     out = out.astype(np.int16)
-    
+
     return out
 
 
 def register(img, 
+            sr,
             REFERENCE_FRAME,
             NUMBER_OF_REF_FRAMES,
             MOVING_AVERAGE,
@@ -47,11 +46,26 @@ def process(
         TIME_AXIS=s.TIME_AXIS,
         SPLIT_ONLY=s.SPLIT_ONLY,
         verbose=False):
+   
+    # if DISTORTION_TYPE in (
+    #     'TRANSLATION',
+    #     'RIGID_BODY',
+    #     'SCALED_ROTATION',
+    #     'AFFINE',
+    #     'BILINEAR'):
+        
+    #     exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
+    # else:
+    #     sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+    #     print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
 
-    try:
-        exec('sr = pystackreg.StackReg(pystackreg.StackReg.{})'.format(DISTORTION_TYPE))
-    except:
-        print('Missing DISTORTION_TYPE parameter, used default "TRANSLATION"')
+    match DISTORTION_TYPE:
+        case 'TRANSLATION'          : sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+        case 'RIGID_BODY'           : sr = pystackreg.StackReg(pystackreg.StackReg.RIGID_BODY)
+        case 'SCALED_ROTATION'      : sr = pystackreg.StackReg(pystackreg.StackReg.SCALED_ROTATION)
+        case 'AFFINE'               : sr = pystackreg.StackReg(pystackreg.StackReg.AFFINE)
+        case 'BILINEAR'             : sr = pystackreg.StackReg(pystackreg.StackReg.BILINEAR)
+        case _                      : sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
     # Bad construction, to review:
     try:
@@ -71,7 +85,7 @@ def process(
             transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
             transform_matrix = np.array([])
 
-            if not SPLIT_ONLY:
+            if not SPLIT_ONLY:    # Bad construction, to review
 
                 for ch in range(len(img)):
                     print('\nRegistrating file', file, ', channel', ch + 1, '...')
@@ -80,6 +94,7 @@ def process(
                         transform_matrix_list,
                         [register(
                             img[ch],
+                            sr,
                             REFERENCE_FRAME,
                             NUMBER_OF_REF_FRAMES,
                             MOVING_AVERAGE,
@@ -93,11 +108,12 @@ def process(
 
             for ch in range(len(img)):
 
-                if not SPLIT_ONLY:
+                if not SPLIT_ONLY:    # Bad construction, to review
 
                     print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
                         img[ch],
+                        sr,
                         transform_matrix)
 
                 else:
@@ -113,18 +129,20 @@ def process(
                     out)
 
 
-        elif img.ndim == 3 and not SPLIT_ONLY:
+        elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction, to review
 
             print('\nWorking on file', file, '...')
 
             out = transform(
                         img,
+                        sr,
                         register(
                             img,
+                            sr,
                             REFERENCE_FRAME,
                             NUMBER_OF_REF_FRAMES,
                             MOVING_AVERAGE,
-                            TIME_AXIS,
+                            TIME_AXIS,                            
                             verbose=False)
                         )
 

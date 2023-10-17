@@ -31,9 +31,8 @@ SPLIT_ONLY = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
 MULTIPROCESSING = False
-                                # Use all available CPU cores.
-                                # Faster, but need much more RAM so can be unstable.
-
+                                # Use all available CPU cores in parallel.
+                                # Faster, but needs much more RAM so can be unstable.
 
 TODO_LIST = [                   # list here quoted TIFF file names without .tiff extensions, separated by comma:
 
@@ -81,7 +80,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # # Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine:
 
 # ['A_0001', 
-#     {'DIRECTORY' : 'Fs:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
+#     {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
 #     'REFERENCE_FRAME' : 'first'}
 # ],
 
@@ -96,7 +95,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 # # Organoid project:
 #
-# ['Organoids/Alzheimer mRuby applications_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/'}],
+# 'Organoids/Alzheimer mRuby applications_0001',
 # 'Organoids/Control mRuby applications_0001',
 # 'Organoids/Alzheimer mtRGeco applications_0001',
 # 'Organoids/Control mtRGeco applications_0001',
