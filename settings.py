@@ -98,7 +98,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #
 # ['Organoids/Alzheimer mRuby applications_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/'}],
 # 'Organoids/Control mRuby applications_0001',
-# 'Organoids/Alzheimer mtRGeco applications_0001',
+# ['Organoids/Alzheimer mtRGeco applications_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/'}],
 # 'Organoids/Control mtRGeco applications_0001',
 
 
