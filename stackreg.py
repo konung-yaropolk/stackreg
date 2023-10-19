@@ -64,11 +64,13 @@ def process(
         try:
             img = tifffile.imread(DIRECTORY + file + '.tiff')
         except Exception as e:
-            print('\nFile:', DIRECTORY + file, 'not found')
+            print('\n!!! File:', DIRECTORY + file, 'not found')
             return e
 
     try:
-        # algorytm for 4-dimentional tiff:
+
+        print('\n>>> Started working with the file', file, '...')
+        # algorytm for 4-dimentional tiff:        
         if img.ndim == 4:
 
             transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
@@ -77,7 +79,7 @@ def process(
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
                 for ch in range(len(img)):
-                    print('\nRegistrating file', file, ', channel', ch + 1, '...')
+                    if verbose: print('\nRegistrating file', file, ', channel', ch + 1, '...')
 
                     transform_matrix_list = np.append(
                         transform_matrix_list,
@@ -99,7 +101,7 @@ def process(
 
                 if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-                    print('\nTransforming file', file, ', channel', ch + 1, '...')
+                    if verbose: print('\nTransforming file', file, ', channel', ch + 1, '...')
                     out = transform(
                         img[ch],
                         sr,
@@ -118,9 +120,7 @@ def process(
 
         # algorytm for 3-dimentional tiff:
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
-
-            print('\nWorking on file', file, '...')
-
+        
             out = transform(
                         img,
                         sr,
@@ -134,7 +134,7 @@ def process(
                             verbose=False)
                         )
 
-            print('\nWriting to file...')
+            if verbose: print('\nWriting to file...')
 
             tifffile.imwrite(
                 '{}{}_registered.tif'.format(
@@ -153,7 +153,7 @@ def process(
         return e
 
     else:
-        print('\nFile', file, 'done!\n')
+        print('\n*** File', file, 'done!')
         
     # immediatly clearing memory used by np arrays
     finally:
@@ -175,7 +175,7 @@ def main():
         cores = mp.cpu_count()
         pool = mp.Pool(processes=cores)
 
-        print('\n{0} cpu cores found, pool of {0} processes created.\n'.format(cores))
+        print('\nParallel processing mode activated:\n {0} cpu cores found, pool of {0} processes created.\nPlease, ensure if you have enough RAM for multiprocessing\n'.format(cores))
 
         results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]

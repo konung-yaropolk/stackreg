@@ -30,7 +30,7 @@ TIME_AXIS = 0
 SPLIT_ONLY = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
                                 # Use all available CPU cores.
                                 # Faster, but need much more RAM so can be unstable.
 
@@ -39,10 +39,27 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
-# # SNI/SHAM + PMX205:
+# # Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS + PMX205 + Bicuculine:
 #
-# 'SNI_SHAM + PMX205/22_02_2023/A_0015',
-# 'SNI_SHAM + PMX205/22_02_2023/A_0016',
+
+['A_0015', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
+['A_0016', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
 # 'SNI_SHAM + PMX205/22_02_2023/A_0017',
 # 'SNI_SHAM + PMX205/22_02_2023/A_0018',
 # 'SNI_SHAM + PMX205/22_02_2023/A_0019',
@@ -78,12 +95,48 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'SNI_SHAM + PMX205/28_02_2023/A_0004',
 
 
-# # Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine:
 
+
+# # Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine:
+#
 # ['A_0001', 
 #     {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
 #     'REFERENCE_FRAME' : 'first'}
 # ],
+['A', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
+['08_03_2023_0002', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_08/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
+
+
+
+
+# # Pirt GCamp3 x Thy1 RGeco + DRS + C5a:
+
+['A_0002_0001', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + C5a/2022_12_28/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
+
 
 
 
@@ -91,6 +144,8 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #
 # 'TRPV1 Cre x GCamp5g TdT + Capsaicin/06_04_2023_M1/06_04_2023_0003',
 # 'TRPV1 Cre x GCamp5g TdT + Capsaicin/06_04_2023_M2/__0001',
+
+
 
 
 
@@ -102,5 +157,20 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Organoids/Control mtRGeco applications_0001',
 
 
-]
 
+
+# # Microglia + C5a:
+
+['Field 4_0001', 
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/25_11_2022/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 10,
+    }
+],
+
+
+
+]
