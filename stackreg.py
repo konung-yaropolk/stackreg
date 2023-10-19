@@ -79,7 +79,7 @@ def process(
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
                 for ch in range(len(img)):
-                    if verbose: print('\nRegistrating file', file, ', channel', ch + 1, '...')
+                    if verbose: print('\n     Registrating file', file, ', channel', ch + 1, '...')
 
                     transform_matrix_list = np.append(
                         transform_matrix_list,
@@ -101,7 +101,7 @@ def process(
 
                 if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-                    if verbose: print('\nTransforming file', file, ', channel', ch + 1, '...')
+                    if verbose: print('\n     Transforming file', file, ', channel', ch + 1, '...')
                     out = transform(
                         img[ch],
                         sr,
@@ -134,7 +134,7 @@ def process(
                             verbose=False)
                         )
 
-            if verbose: print('\nWriting to file...')
+            if verbose: print('\n     Writing to file...')
 
             tifffile.imwrite(
                 '{}{}_registered.tif'.format(
@@ -149,7 +149,7 @@ def process(
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
 
     except Exception as e:
-        print('An error occured when processing {}:\n{}'.format(file, e))
+        print('!!!  An error occured when processing {}:\n{}'.format(file, e))
         return e
 
     else:
@@ -170,7 +170,8 @@ def process(
 def main():
 
     if s.MULTIPROCESSING:
-        import multiprocessing as mp
+        
+        import multiprocessing as mp        
 
         cores = mp.cpu_count()          # CPU cores count
         files = len(s.TODO_LIST)        # Files to do count
