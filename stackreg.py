@@ -64,12 +64,12 @@ def process(
         try:
             img = tifffile.imread(DIRECTORY + file + '.tiff')
         except Exception as e:
-            print('\n!!! File:', DIRECTORY + file, 'not found')
+            print('\n!!! ', DIRECTORY + file, '- File not found')
             return e
 
     try:
 
-        print('\n>>> Started working with the file', file, '...')
+        print('\n>>> ', file, '- started working with the file...')
         # algorytm for 4-dimentional tiff:        
         if img.ndim == 4:
 
@@ -153,7 +153,7 @@ def process(
         return e
 
     else:
-        print('\n*** File', file, 'done!')
+        print('\n*** ', file, '- File done!')
         
     # immediatly clearing memory used by np arrays
     finally:
