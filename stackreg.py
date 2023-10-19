@@ -172,10 +172,12 @@ def main():
     if s.MULTIPROCESSING:
         import multiprocessing as mp
 
-        cores = mp.cpu_count()
-        pool = mp.Pool(processes=cores)
+        cores = mp.cpu_count()          # CPU cores count
+        files = len(s.TODO_LIST)        # Files to do count
+        processes = min(cores, files)
+        pool = mp.Pool(processes)
 
-        print('\nParallel processing mode activated:\n {0} cpu cores found, pool of {0} processes created.\nPlease, ensure if you have enough RAM for multiprocessing\n'.format(cores))
+        print('\nParallel processing mode activated:\n{0} cpu cores per queue of {1} files found, pool of {2} processes created.\nPlease, ensure if you have enough RAM for multiprocessing\n'.format(cores, files, processes))
 
         results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]
