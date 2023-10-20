@@ -73,7 +73,7 @@ def process(
         # algorytm for 4-dimentional tiff:        
         if img.ndim == 4:
 
-            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
+            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))    # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
             transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
