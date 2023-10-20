@@ -126,6 +126,15 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'MOVING_AVERAGE' : 10,
 #     }
 # ],
+# ['A_0005',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_09/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 10,
+#     }
+# ],
 # ['08_03_2023_0002', 
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_08/',
