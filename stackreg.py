@@ -153,7 +153,7 @@ def process(
         return e
 
     else:
-        print('\n*** ', file, '- File done!')
+        print('\n<<< ', file, '- File done!')
         
     # immediatly clearing memory used by np arrays
     finally:

@@ -103,10 +103,10 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
 #     'REFERENCE_FRAME' : 'first'}
 # ],
-# ['A', 
+# ['A',
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
-#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'DISTORTION_TYPE' : 'AFFINE',
 #     'REFERENCE_FRAME' : 'first',
 #     'NUMBER_OF_REF_FRAMES' : 10,
 #     'MOVING_AVERAGE' : 10,
