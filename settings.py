@@ -1,7 +1,7 @@
 ################################# Settings block:
 
 
-DIRECTORY = 'data/'
+DIRECTORY = "F:/Lab Work Files/2-photon/" # 'data/'
                                 # Path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'BILINEAR'
@@ -30,7 +30,7 @@ TIME_AXIS = 0
 SPLIT_ONLY = False
                                 # Just simple split stack by channels with no registration. Set True or False
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
                                 # Use all available CPU cores.
                                 # Faster, but need much more RAM so can be unstable.
 
@@ -39,6 +39,44 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+# # MCU-KO project:
+# # Pirt_GCamp3 x MCU-KO + DRS + Caps:
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/4 A+C and C - 0.1 Hz',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/5 A+C and C - 0.1 Hz',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/6 A+C and C - 0.1 Hz_0001',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/7',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/8_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/2',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/3_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/2',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/3',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/4',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/6_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1_0001',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/2_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/1',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/1_0001',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/3_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/2',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/3',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/5_0001',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_02_M7/1',
+
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/1',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/1_0001',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/1_0002',
+
+
+
+# # C5a complement project:
 # # Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS + PMX205 + Bicuculine:
 #
 
@@ -97,6 +135,12 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+
+
+
+
+
+
 # # Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine:
 #
 # ['A_0001', 
@@ -148,6 +192,10 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+
+
+
+# # C5a complement project:
 # # Pirt GCamp3 x Thy1 RGeco + DRS + C5a:
 
 # ['A_0002_0001', 
@@ -163,10 +211,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+
+
+
 # # TRPV1 Cre x GCamp5g TdT + Capsaicin:
 #
 # 'TRPV1 Cre x GCamp5g TdT + Capsaicin/06_04_2023_M1/06_04_2023_0003',
 # 'TRPV1 Cre x GCamp5g TdT + Capsaicin/06_04_2023_M2/__0001',
+
+
+
+
 
 
 
@@ -182,6 +237,12 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+
+
+
+
+
+# # C5a complement project:
 # # Microglia + C5a:
 
 # ['Field 4_0001', 
