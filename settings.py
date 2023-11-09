@@ -2,7 +2,7 @@
 
 
 DIRECTORY = "F:/Lab Work Files/2-photon/" # 'data/'
-                                # Path to files. Leave quotes empty if the files in the same directory with this script
+                                # Provide full path to files. Leave quotes empty if the files in the same directory with this script
 
 DISTORTION_TYPE = 'BILINEAR'
                                 # TRANSLATION        - translation
