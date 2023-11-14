@@ -9,7 +9,7 @@ DISTORTION_TYPE = 'BILINEAR'
                                 # RIGID_BODY         - translation + rotation
                                 # SCALED_ROTATION    - translation + rotation + scaling
                                 # AFFINE             - translation + rotation + scaling + shearing
-                                # BILINEAR           - non-linear transformation
+                                # BILINEAR           - non-linear transformation (no support for 'previous' reference frame mode)
 
 REFERENCE_FRAME = 'first'
                                 # first, previous, mean
@@ -46,8 +46,15 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/5 A+C and C - 0.1 Hz',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/6 A+C and C - 0.1 Hz_0001',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/7',
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/8_0001',
-
+# ['8_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/',
+#     'DISTORTION_TYPE' : 'AFFINE',
+#     'REFERENCE_FRAME' : 'previous',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 10,
+#     }
+# ]
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/2',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/3_0001',
 
