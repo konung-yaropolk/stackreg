@@ -14,12 +14,12 @@ DISTORTION_TYPE = 'BILINEAR'
 REFERENCE_FRAME = 'first'
                                 # first, previous, mean
 
-NUMBER_OF_REF_FRAMES = 10
+NUMBER_OF_REF_FRAMES = 15
                                 # If reference is 'first', then this parameter specifies the
                                 # number of frames from the beginning of the stack that
                                 # should be averaged to yield the reference image.
 
-MOVING_AVERAGE = 10
+MOVING_AVERAGE = 15
                                 # If moving_average is greater than 1, a moving average of
                                 # the stack is first created (using a subset size of
                                 # moving_average) before registration
@@ -55,11 +55,20 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'MOVING_AVERAGE' : 10,
 #     }
 # ]
+
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/2',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/3_0001',
 
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/2',
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/3',
+['3',
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'NUMBER_OF_REF_FRAMES' : 10,
+    'MOVING_AVERAGE' : 20,
+    }
+]
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/4',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/6_0001',
 
