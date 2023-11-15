@@ -60,17 +60,25 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/3_0001',
 
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/2',
-['3',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-]
+# ['3',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ]
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/4',
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/6_0001',
+# ['6_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ]
 
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1_0001',
