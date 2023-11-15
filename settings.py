@@ -80,7 +80,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ]
 
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1',
+# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1_0000',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/1_0001',
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M4/2_0001',
 
