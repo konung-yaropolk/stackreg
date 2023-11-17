@@ -178,7 +178,10 @@ def main():
         processes = min(cores, files)
         pool = mp.Pool(processes)
 
-        print('\nParallel processing mode activated:\n{0} cpu cores per queue of {1} files found, pool of {2} processes created.\nPlease, ensure if you have enough RAM for multiprocessing\n'.format(cores, files, processes))
+        print('\nParallel processing mode activated:')
+        print('Please, ensure if you have enough RAM for multiprocessing.')
+        print('If calculations went wrong, please, disable the MULTIPROCESSING option in the settings.py')
+        print('{0} cpu cores per queue of {1} files found, pool of {2} processes created.'.format(cores, files, processes))
 
         results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]

@@ -293,15 +293,18 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # # C5a complement project:
 # # Microglia + C5a:
 
-# ['Field 4_0001', 
-#     {
-#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/25_11_2022/',
-#     'DISTORTION_TYPE' : 'BILINEAR',
-#     'REFERENCE_FRAME' : 'first',
-#     'NUMBER_OF_REF_FRAMES' : 10,
-#     'MOVING_AVERAGE' : 10,
-#     }
-# ],
+# 'Microglia + C5a/21_11_2022/B_0002',
+# 'Microglia + C5a/21_11_2022/C_0002',
+# 'Microglia + C5a/21_11_2022/D_0001',
+# 'Microglia + C5a/21_11_2022/E_0002',
+# 'Microglia + C5a/21_11_2022/E_0003',
+
+# 'Microglia + C5a/24_11_2022/Field 11',
+
+# 'Microglia + C5a/25_11_2022/Field 4_0001',
+# 'Microglia + C5a/25_11_2022/Field 7_0001',
+
+
 
 
 
