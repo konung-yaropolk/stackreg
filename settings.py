@@ -56,10 +56,19 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ]
 
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/2',
+
+
 # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M2/3_0001',
 
-# 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/2',
+# ['2',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ]
 # ['3',
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
