@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ################################# Settings block:
 
 
@@ -318,3 +319,9 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 ]
+
+
+
+if __name__ == '__main__':
+    import stackreg
+    stackreg.main()
