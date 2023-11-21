@@ -25,6 +25,9 @@ MOVING_AVERAGE = 15
                                 # the stack is first created (using a subset size of
                                 # moving_average) before registration
 
+REFERENCE_CHANNEL = 0           
+                                # what channel use as refferense, 0 - use mean of all
+
 TIME_AXIS = 0
                                 # The axis of the time dimension in original TIFF array (default 0)
 
@@ -321,8 +324,16 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Microglia + C5a/2023_11_20/C',
 # 'Microglia + C5a/2023_11_20/C_0001',
 # 'Microglia + C5a/2023_11_20/D_0001',
-# 'Microglia + C5a/2023_11_20/E_0001',
-
+# ['E_0001', 
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/2023_11_20/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1,
+#     'NUMBER_OF_REF_FRAMES' : 30,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
 
 
 ]

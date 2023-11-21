@@ -46,6 +46,7 @@ def process(
         MOVING_AVERAGE=s.MOVING_AVERAGE,
         TIME_AXIS=s.TIME_AXIS,
         SPLIT_ONLY=s.SPLIT_ONLY,
+        REFERENCE_CHANNEL = s.REFERENCE_CHANNEL,
         verbose=False):
    
     match DISTORTION_TYPE:
@@ -91,11 +92,11 @@ def process(
                             MOVING_AVERAGE,
                             TIME_AXIS,
                             verbose=verbose)],
-                        axis=-1)
+                axis=-1)
 
                 transform_matrix = np.mean(
                     transform_matrix_list,
-                    axis=0)
+                    axis=0) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
 
             for ch in range(len(img)):
 
