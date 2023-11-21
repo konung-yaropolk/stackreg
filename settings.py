@@ -314,7 +314,14 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Microglia + C5a/25_11_2022/Field 4_0001',
 # 'Microglia + C5a/25_11_2022/Field 7_0001',
 
+# 'Microglia + C5a/2023_11_17/1_0000',
+# 'Microglia + C5a/2023_11_17/4_0001',
 
+# 'Microglia + C5a/2023_11_20/B',
+# 'Microglia + C5a/2023_11_20/C',
+# 'Microglia + C5a/2023_11_20/C_0001',
+# 'Microglia + C5a/2023_11_20/D_0001',
+# 'Microglia + C5a/2023_11_20/E_0001',
 
 
 
