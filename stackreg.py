@@ -6,10 +6,9 @@ import tifffile
 import settings as s
 
 
-
 def transform(
-        img, 
-        sr, 
+        img,
+        sr,
         transform_matrix):
 
     out = sr.transform_stack(img, tmats=transform_matrix)
@@ -19,7 +18,7 @@ def transform(
 
 
 def register(
-        img, 
+        img,
         sr,
         REFERENCE_FRAME,
         NUMBER_OF_REF_FRAMES,
@@ -37,8 +36,8 @@ def register(
     return transform_matrix
 
 
-def process(        
-        file, 
+def process(
+        file,
         DIRECTORY=s.DIRECTORY,
         DISTORTION_TYPE=s.DISTORTION_TYPE,
         REFERENCE_FRAME=s.REFERENCE_FRAME,
@@ -46,16 +45,16 @@ def process(
         MOVING_AVERAGE=s.MOVING_AVERAGE,
         TIME_AXIS=s.TIME_AXIS,
         SPLIT_ONLY=s.SPLIT_ONLY,
-        REFERENCE_CHANNEL = s.REFERENCE_CHANNEL,
+        REFERENCE_CHANNEL=s.REFERENCE_CHANNEL,
         verbose=False):
-   
+
     match DISTORTION_TYPE:
-        case 'TRANSLATION'          : sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
-        case 'RIGID_BODY'           : sr = pystackreg.StackReg(pystackreg.StackReg.RIGID_BODY)
-        case 'SCALED_ROTATION'      : sr = pystackreg.StackReg(pystackreg.StackReg.SCALED_ROTATION)
-        case 'AFFINE'               : sr = pystackreg.StackReg(pystackreg.StackReg.AFFINE)
-        case 'BILINEAR'             : sr = pystackreg.StackReg(pystackreg.StackReg.BILINEAR)
-        case _                      : sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+        case 'TRANSLATION': sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+        case 'RIGID_BODY': sr = pystackreg.StackReg(pystackreg.StackReg.RIGID_BODY)
+        case 'SCALED_ROTATION': sr = pystackreg.StackReg(pystackreg.StackReg.SCALED_ROTATION)
+        case 'AFFINE': sr = pystackreg.StackReg(pystackreg.StackReg.AFFINE)
+        case 'BILINEAR': sr = pystackreg.StackReg(pystackreg.StackReg.BILINEAR)
+        case _: sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
     # Bad construction, to review:
     try:
@@ -71,16 +70,19 @@ def process(
     try:
 
         print('\n>>> ', file, '- started working with the file...')
-        # algorytm for 4-dimentional tiff:        
+        # algorytm for 4-dimentional tiff:
         if img.ndim == 4:
 
-            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))    # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
+            # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
+            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
             transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
                 for ch in range(len(img)):
-                    if verbose: print('\n     Registrating file', file, ', channel', ch + 1, '...')
+                    if verbose:
+                        print('\n     Registrating file',
+                              file, ', channel', ch + 1, '...')
 
                     transform_matrix_list = np.append(
                         transform_matrix_list,
@@ -92,7 +94,7 @@ def process(
                             MOVING_AVERAGE,
                             TIME_AXIS,
                             verbose=verbose)],
-                axis=-1)
+                        axis=-1)
 
                 transform_matrix = np.mean(
                     transform_matrix_list,
@@ -102,7 +104,9 @@ def process(
 
                 if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-                    if verbose: print('\n     Transforming file', file, ', channel', ch + 1, '...')
+                    if verbose:
+                        print('\n     Transforming file',
+                              file, ', channel', ch + 1, '...')
                     out = transform(
                         img[ch],
                         sr,
@@ -121,21 +125,22 @@ def process(
 
         # algorytm for 3-dimentional tiff:
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
-        
-            out = transform(
-                        img,
-                        sr,
-                        register(
-                            img,
-                            sr,
-                            REFERENCE_FRAME,
-                            NUMBER_OF_REF_FRAMES,
-                            MOVING_AVERAGE,
-                            TIME_AXIS,                            
-                            verbose=False)
-                        )
 
-            if verbose: print('\n     Writing to file...')
+            out = transform(
+                img,
+                sr,
+                register(
+                    img,
+                    sr,
+                    REFERENCE_FRAME,
+                    NUMBER_OF_REF_FRAMES,
+                    MOVING_AVERAGE,
+                    TIME_AXIS,
+                    verbose=False)
+            )
+
+            if verbose:
+                print('\n     Writing to file...')
 
             tifffile.imwrite(
                 '{}{}_registered.tif'.format(
@@ -144,7 +149,8 @@ def process(
                 out)
 
         elif img.ndim == 3 and SPLIT_ONLY == True:
-            raise Exception('SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
+            raise Exception(
+                'SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
 
         else:
             raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
@@ -155,7 +161,7 @@ def process(
 
     else:
         print('\n<<< ', file, '- File done!')
-        
+
     # immediatly clearing memory used by np arrays
     finally:
         img = None
@@ -171,8 +177,8 @@ def process(
 def main():
 
     if s.MULTIPROCESSING:
-        
-        import multiprocessing as mp        
+
+        import multiprocessing as mp
 
         cores = mp.cpu_count()          # CPU cores count
         files = len(s.TODO_LIST)        # Files to do count
@@ -182,18 +188,20 @@ def main():
         print('\nParallel processing mode activated:')
         print('Please, ensure if you have enough RAM for multiprocessing.')
         print('If calculations went wrong, please, disable the MULTIPROCESSING option in the settings.py')
-        print('{0} cpu cores per queue of {1} files found, pool of {2} processes created.'.format(cores, files, processes))
+        print('{0} cpu cores per queue of {1} files found, pool of {2} processes created.'.format(
+            cores, files, processes))
 
-        results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
+        results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (
+            line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
         output = [p.get() for p in results]
 
-        print('\nErrors:',output)
+        print('\nErrors:', output)
 
     else:
-        
+
         for line in s.TODO_LIST:
 
-            if isinstance(line, list):                
+            if isinstance(line, list):
                 process(line[0], **line[1], verbose=True)
             else:
                 process(line, verbose=True)
