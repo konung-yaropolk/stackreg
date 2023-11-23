@@ -323,7 +323,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'Microglia + C5a/2023_11_20/B',
 # 'Microglia + C5a/2023_11_20/C_0001',
 # 'Microglia + C5a/2023_11_20/D_0001',
-#  ['E_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/2023_11_20/', 'DISTORTION_TYPE' : 'BILINEAR', 'REFERENCE_FRAME' : 'first', 'REFERENCE_CHANNEL' : 1, 'NUMBER_OF_REF_FRAMES' : 30, 'MOVING_AVERAGE' : 30,}],
+# ['E_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/2023_11_20/', 'DISTORTION_TYPE' : 'BILINEAR', 'REFERENCE_FRAME' : 'first', 'REFERENCE_CHANNEL' : 2, 'NUMBER_OF_REF_FRAMES' : 20, 'MOVING_AVERAGE' : 20,}],
 
 # 'Microglia + C5a/2023_11_21/A_overview_3_0001',
 # 'Microglia + C5a/2023_11_21/C_0002',
