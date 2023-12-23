@@ -42,6 +42,29 @@ MULTIPROCESSING = True
 TODO_LIST = [                   # list here quoted TIFF file names without .tiff extensions, separated by comma:
 
 
+# # TRP project
+
+# ['Field 1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M1/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
+
+# ['Field 1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M2/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
+
+
 
 # # MCU-KO project:
 # # Pirt_GCamp3 x MCU-KO + DRS + Caps:

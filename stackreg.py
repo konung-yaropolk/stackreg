@@ -183,7 +183,11 @@ def main():
         cores = mp.cpu_count()          # CPU cores count
         files = len(s.TODO_LIST)        # Files to do count
         processes = min(cores, files)
-        pool = mp.Pool(processes)
+        try:
+            pool = mp.Pool(processes)
+        except ValueError:
+            print('No one file listed, there is nothing to do.')
+            return 0
 
         print('\nParallel processing mode activated:')
         print('Please, ensure if you have enough RAM for multiprocessing.')
