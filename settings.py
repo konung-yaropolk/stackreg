@@ -44,27 +44,26 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 # # TRP project
 
-['Field 1_0001',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M1/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'REFERENCE_CHANNEL' : 1, 
-    'NUMBER_OF_REF_FRAMES' : 5,
-    'MOVING_AVERAGE' : 10,
-    }
-],
-
-['Field 1_0001',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M2/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'REFERENCE_CHANNEL' : 1, 
-    'NUMBER_OF_REF_FRAMES' : 5,
-    'MOVING_AVERAGE' : 10,
-    }
-],
+# ['Field 1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M1/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
+# ['Field 1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M2/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
 
 
 
