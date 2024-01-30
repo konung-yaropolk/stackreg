@@ -46,20 +46,41 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 # ['Field 1_0001',
 #     {
-#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M1/',
-#     'DISTORTION_TYPE' : 'BILINEAR',
-#     'REFERENCE_FRAME' : 'first',
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'previous',
 #     'REFERENCE_CHANNEL' : 1, 
-#     'NUMBER_OF_REF_FRAMES' : 10,
-#     'MOVING_AVERAGE' : 30,
+#     'NUMBER_OF_REF_FRAMES' : 1,
+#     'MOVING_AVERAGE' : 1,
 #     }
 # ],
-# ['Field 1_0001',
+# ['Field 1_0001_ch1_registered',
 #     {
-#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project/2023_12_22_M2/',
-#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
 #     'REFERENCE_FRAME' : 'first',
 #     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 40,
+#     }
+# ],
+# ['Field 1_0001_ch2_registered',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 40,
+#     }
+# ],
+
+# ['Field 1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M2/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
 #     'NUMBER_OF_REF_FRAMES' : 10,
 #     'MOVING_AVERAGE' : 30,
 #     }
