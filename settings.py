@@ -186,15 +186,15 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # # Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS + PMX205 + Bicuculine:
 #
 
-['A_0015', 
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-],
+# ['A_0015', 
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],
 # ['A_0016', 
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
@@ -209,15 +209,15 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 # 'SNI_SHAM + PMX205/22_02_2023/A_0019',
 #
 # 'SNI_SHAM + PMX205/23_02_2023_M1/A_0008',
-['A_0008', 
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/23_02_2023_M2/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-],
+# ['A_0008', 
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/23_02_2023_M2/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],
 
 # 'SNI_SHAM + PMX205/23_02_2023_M1/A_0009',
 # 'SNI_SHAM + PMX205/23_02_2023_M1/A_0010',
@@ -276,36 +276,34 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'NUMBER_OF_REF_FRAMES' : 10,
 #     'MOVING_AVERAGE' : 10,
 #     }
+# ],    
+# ['A_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
 # ],
-    
-['A_0001',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-],
-['A_0003',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-],
-['A_0004',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'NUMBER_OF_REF_FRAMES' : 10,
-    'MOVING_AVERAGE' : 20,
-    }
-],    
-
+# ['A_0003',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],
+# ['A_0004',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],    
 # ['A_0003',
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_05/',
