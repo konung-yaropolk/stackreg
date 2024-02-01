@@ -267,6 +267,35 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'MOVING_AVERAGE' : 10,
 #     }
 # ],
+    
+# ['A_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],
+# ['A_0003',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],
+# ['A_0004',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 20,
+#     }
+# ],    
+
 # ['A_0003',
 #     {
 #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_05/',
