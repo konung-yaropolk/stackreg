@@ -96,6 +96,59 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ],
 
+# ['Field_1',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
+# ['Field_2_0001_DRS_part',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 10,
+#     'MOVING_AVERAGE' : 30,
+#     }
+# ],
+# ['Field_2_0001_drug_part',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 60,
+#     }
+# ],
+# ['Field_1',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 60,
+#     }
+# ],
+# ['Field_2_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 60,
+#     }
+# ],
+
+
+
 
 
 # # MCU-KO project:
