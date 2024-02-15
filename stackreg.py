@@ -1,10 +1,27 @@
 #!/usr/bin/env python3
 
+import os
+import re
 import numpy as np
 import pystackreg
 import tifffile
 import settings as s
 
+
+def file_finder(path, pattern, nonrecursive=False):
+    files_list = []  # To store the paths of .txt files
+
+    # Walk through the directory and its subdirectories
+    for root, _, files in os.walk(path):
+        for filename in files:
+            if re.search(pattern, filename):
+                files_list.extend(
+                    [filename[:-4]])
+
+        if nonrecursive:
+            break
+
+    return files_list
 
 def transform(
         img,
@@ -176,12 +193,17 @@ def process(
 
 def main():
 
+    if s.TAKE_ALL_FILES:
+        TODO_LIST = file_finder(s.DIRECTORY, r'.*\.tif')
+    else:
+        TODO_LIST = s.TODO_LIST
+
     if s.MULTIPROCESSING:
 
         import multiprocessing as mp
 
         cores = mp.cpu_count()          # CPU cores count
-        files = len(s.TODO_LIST)        # Files to do count
+        files = len(TODO_LIST)        # Files to do count
         processes = min(cores, files)
         try:
             pool = mp.Pool(processes)
@@ -196,14 +218,14 @@ def main():
             cores, files, processes))
 
         results = [pool.apply_async(process, args=(line[0],) if isinstance(line, list) else (
-            line,), kwds=line[1] if isinstance(line, list) else {}) for line in s.TODO_LIST]
+            line,), kwds=line[1] if isinstance(line, list) else {}) for line in TODO_LIST]
         output = [p.get() for p in results]
 
         print('\nErrors:', output)
 
     else:
 
-        for line in s.TODO_LIST:
+        for line in TODO_LIST:
 
             if isinstance(line, list):
                 process(line[0], **line[1], verbose=True)
