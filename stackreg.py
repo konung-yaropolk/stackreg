@@ -63,6 +63,8 @@ def process(
         TIME_AXIS=s.TIME_AXIS,
         SPLIT_ONLY=s.SPLIT_ONLY,
         REFERENCE_CHANNEL=s.REFERENCE_CHANNEL,
+        SAVE_TRANSFORM_MATRIX=s.SAVE_TRANSFORM_MATRIX,
+        READ_TRANSFORM_MATRIX=s.READ_TRANSFORM_MATRIX,
         verbose=False):
 
     match DISTORTION_TYPE:
@@ -91,8 +93,12 @@ def process(
         if img.ndim == 4:
 
             # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
-            transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
-            transform_matrix = np.array([])
+
+            if READ_TRANSFORM_MATRIX:
+                transform_matrix = np.load(DIRECTORY+file)
+            else:       
+                transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
+                transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
@@ -101,21 +107,23 @@ def process(
                         print('\n     Registrating file',
                               file, ', channel', ch + 1, '...')
 
-                    transform_matrix_list = np.append(
-                        transform_matrix_list,
-                        [register(
-                            img[ch],
-                            sr,
-                            REFERENCE_FRAME,
-                            NUMBER_OF_REF_FRAMES,
-                            MOVING_AVERAGE,
-                            TIME_AXIS,
-                            verbose=verbose)],
-                        axis=-1)
+                    if not READ_TRANSFORM_MATRIX:
+                        transform_matrix_list = np.append(
+                            transform_matrix_list,
+                            [register(
+                                img[ch],
+                                sr,
+                                REFERENCE_FRAME,
+                                NUMBER_OF_REF_FRAMES,
+                                MOVING_AVERAGE,
+                                TIME_AXIS,
+                                verbose=verbose)],
+                            axis=-1)
 
-                transform_matrix = np.mean(
-                    transform_matrix_list,
-                    axis=0) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
+                if not READ_TRANSFORM_MATRIX:
+                    transform_matrix = np.mean(
+                        transform_matrix_list,
+                        axis=0) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
 
             for ch in range(len(img)):
 
@@ -143,10 +151,12 @@ def process(
         # algorytm for 3-dimentional tiff:
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-            out = transform(
-                img,
-                sr,
-                register(
+            transform_matrix = np.array([])
+
+            if READ_TRANSFORM_MATRIX:
+                transform_matrix = np.load(DIRECTORY+file)            
+            else:
+                transform_matrix = register(
                     img,
                     sr,
                     REFERENCE_FRAME,
@@ -154,6 +164,14 @@ def process(
                     MOVING_AVERAGE,
                     TIME_AXIS,
                     verbose=False)
+            
+            if SAVE_TRANSFORM_MATRIX: 
+                np.save(DIRECTORY+file, transform_matrix, allow_pickle=False, fix_imports=True)
+
+            out = transform(
+                img,
+                sr,
+                transform_matrix,
             )
 
             if verbose:
