@@ -26,7 +26,8 @@ def file_finder(path, pattern, nonrecursive=False):
 def transform(
         img,
         sr,
-        transform_matrix):
+        transform_matrix,
+    ):
 
     out = sr.transform_stack(img, tmats=transform_matrix)
     out = out.astype(np.int16)
@@ -41,7 +42,8 @@ def register(
         NUMBER_OF_REF_FRAMES,
         MOVING_AVERAGE,
         TIME_AXIS,
-        verbose=False):
+        verbose=False,
+    ):
 
     transform_matrix = sr.register_stack(
         img,
@@ -49,7 +51,9 @@ def register(
         n_frames=NUMBER_OF_REF_FRAMES,
         moving_average=MOVING_AVERAGE,
         axis=TIME_AXIS,
-        verbose=verbose)
+        verbose=verbose,
+    )
+    
     return transform_matrix
 
 
@@ -65,7 +69,8 @@ def process(
         REFERENCE_CHANNEL=s.REFERENCE_CHANNEL,
         SAVE_TRANSFORM_MATRIX=s.SAVE_TRANSFORM_MATRIX,
         READ_TRANSFORM_MATRIX=s.READ_TRANSFORM_MATRIX,
-        verbose=False):
+        verbose=False,
+    ):
 
     match DISTORTION_TYPE:
         case 'TRANSLATION': sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
@@ -74,6 +79,20 @@ def process(
         case 'AFFINE': sr = pystackreg.StackReg(pystackreg.StackReg.AFFINE)
         case 'BILINEAR': sr = pystackreg.StackReg(pystackreg.StackReg.BILINEAR)
         case _: sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
+
+    metadata = {
+        'Current File' : DIRECTORY + file + '_registered',
+        'Original File' : DIRECTORY + file,
+        'Transformation Matrix Used' : READ_TRANSFORM_MATRIX,
+        'Transformations Applied' : not SPLIT_ONLY,
+        'Software Used' : 'https://github.com/konung-yaropolk/stackreg',
+        'DISTORTION_TYPE' : DISTORTION_TYPE,
+        'REFERENCE_FRAME' : REFERENCE_FRAME,
+        'NUMBER_OF_REF_FRAMES' : NUMBER_OF_REF_FRAMES,
+        'MOVING_AVERAGE' : MOVING_AVERAGE,
+        'REFERENCE_CHANNEL' : REFERENCE_CHANNEL,
+        'TIME_AXIS' : TIME_AXIS,
+    }
 
     # Bad construction, to review:
     try:
@@ -117,13 +136,17 @@ def process(
                                 NUMBER_OF_REF_FRAMES,
                                 MOVING_AVERAGE,
                                 TIME_AXIS,
-                                verbose=verbose)],
-                            axis=-1)
+                                verbose=verbose,
+                            )
+                            ],
+                            axis=-1,
+                        )
 
                 if not READ_TRANSFORM_MATRIX:
                     transform_matrix = np.mean(
                         transform_matrix_list,
-                        axis=0) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
+                        axis=0,
+                    ) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
 
             for ch in range(len(img)):
 
@@ -132,10 +155,12 @@ def process(
                     if verbose:
                         print('\n     Transforming file',
                               file, ', channel', ch + 1, '...')
+                        
                     out = transform(
                         img[ch],
                         sr,
-                        transform_matrix)
+                        transform_matrix,
+                    )
 
                 else:
                     out = img[ch]
@@ -145,8 +170,12 @@ def process(
                         DIRECTORY,
                         file,
                         ch + 1,
-                        '_registered' if not SPLIT_ONLY else ''),
-                    out)
+                        '_registered' if not SPLIT_ONLY else ''
+                    ),
+                    out,
+                    imagej=True,
+                    metadata=metadata,
+                )
 
         # algorytm for 3-dimentional tiff:
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
@@ -163,10 +192,16 @@ def process(
                     NUMBER_OF_REF_FRAMES,
                     MOVING_AVERAGE,
                     TIME_AXIS,
-                    verbose=False)
+                    verbose=False,
+                )
             
             if SAVE_TRANSFORM_MATRIX: 
-                np.save(DIRECTORY+file, transform_matrix, allow_pickle=False, fix_imports=True)
+                np.save(
+                    DIRECTORY + file,
+                    transform_matrix,
+                    allow_pickle=False,
+                    fix_imports=True,
+                )
 
             out = transform(
                 img,
@@ -180,8 +215,12 @@ def process(
             tifffile.imwrite(
                 '{}{}_registered.tif'.format(
                     DIRECTORY,
-                    file),
-                out)
+                    file,
+                ),
+                out,
+                imagej=True,
+                metadata=metadata,
+            )                
 
         elif img.ndim == 3 and SPLIT_ONLY == True:
             raise Exception(
