@@ -95,7 +95,7 @@ def process(
             # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
 
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(DIRECTORY+file)
+                transform_matrix = np.load(DIRECTORY + file + '.npy')
             else:       
                 transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
                 transform_matrix = np.array([])
@@ -151,11 +151,11 @@ def process(
         # algorytm for 3-dimentional tiff:
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-            transform_matrix = np.array([])
-
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(DIRECTORY+file)            
+                transform_matrix = np.load(DIRECTORY + file + '.npy')        
+                print('Transform matrix found for this file')
             else:
+                transform_matrix = np.array([])
                 transform_matrix = register(
                     img,
                     sr,
