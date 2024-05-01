@@ -81,17 +81,18 @@ def process(
         case _: sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
     metadata = {
-        'Current File' : DIRECTORY + file + '_registered',
-        'Original File' : DIRECTORY + file,
-        'Transformation Matrix Used' : READ_TRANSFORM_MATRIX,
-        'Transformations Applied' : not SPLIT_ONLY,
-        'Software Used' : 'https://github.com/konung-yaropolk/stackreg',
-        'DISTORTION_TYPE' : DISTORTION_TYPE,
-        'REFERENCE_FRAME' : REFERENCE_FRAME,
-        'NUMBER_OF_REF_FRAMES' : NUMBER_OF_REF_FRAMES,
-        'MOVING_AVERAGE' : MOVING_AVERAGE,
-        'REFERENCE_CHANNEL' : REFERENCE_CHANNEL,
-        'TIME_AXIS' : TIME_AXIS,
+        ' Current File' : DIRECTORY + file + '_registered',
+        ' Original File' : DIRECTORY + file,
+        ' Transformation Matrix Used' : READ_TRANSFORM_MATRIX,
+        ' Transformations Applied' : not SPLIT_ONLY,
+        ' Software Used' : 'https://github.com/konung-yaropolk/stackreg',
+        ' TIME_AXIS' : TIME_AXIS,
+        ' REFERENCE_CHANNEL' : REFERENCE_CHANNEL,
+        ' DISTORTION_TYPE' : DISTORTION_TYPE,
+        ' REFERENCE_FRAME' : REFERENCE_FRAME,
+        ' NUMBER_OF_REF_FRAMES' : NUMBER_OF_REF_FRAMES,
+        ' MOVING_AVERAGE' : MOVING_AVERAGE,
+
     }
 
     # Bad construction, to review:
@@ -114,9 +115,10 @@ def process(
             # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
 
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(DIRECTORY + file + '.npy')
+                transform_matrix = np.load(DIRECTORY + file + '_transform_matrix.npy')
             else:       
                 transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
+                #print(img.shape)
                 transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
@@ -143,10 +145,19 @@ def process(
                         )
 
                 if not READ_TRANSFORM_MATRIX:
+                    print(transform_matrix_list.shape)
                     transform_matrix = np.mean(
                         transform_matrix_list,
                         axis=0,
                     ) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
+
+                    if SAVE_TRANSFORM_MATRIX: 
+                        np.save(
+                            DIRECTORY + file + '_transform_matrix',
+                            transform_matrix,
+                            allow_pickle=False,
+                            fix_imports=True,
+                        )
 
             for ch in range(len(img)):
 
@@ -181,7 +192,7 @@ def process(
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(DIRECTORY + file + '.npy')        
+                transform_matrix = np.load(DIRECTORY + file + '_transform_matrix.npy')        
                 print('Transform matrix found for this file')
             else:
                 transform_matrix = np.array([])
@@ -197,7 +208,7 @@ def process(
             
             if SAVE_TRANSFORM_MATRIX: 
                 np.save(
-                    DIRECTORY + file,
+                    DIRECTORY + file + '_transform_matrix',
                     transform_matrix,
                     allow_pickle=False,
                     fix_imports=True,

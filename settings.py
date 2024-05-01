@@ -38,7 +38,7 @@ TAKE_ALL_FILES = False
                                 # Process all .tif files recurcively in given directory
                                 # If this parameter turned on, TODO_LIST will be ignored
 
-SAVE_TRANSFORM_MATRIX = False
+SAVE_TRANSFORM_MATRIX = True
                                 # Save transform matrix in .npy file with the same filename as original .tif
 
 READ_TRANSFORM_MATRIX = False
@@ -350,6 +350,145 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'REFERENCE_CHANNEL' : 0, 
 #     'NUMBER_OF_REF_FRAMES' : 100,
 #     'MOVING_AVERAGE' : 100,
+#     }
+# ],
+
+
+# ['Field_1_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_2_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_3',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_4',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_5',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_6',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'AFFINE',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 40,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+# ['Field_7_0001_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+
+# ['Field 7_trp_activators_application_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+
+['Field_4_trp_activators_application_0001',
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 0, 
+    'NUMBER_OF_REF_FRAMES' : 60,
+    'MOVING_AVERAGE' : 130,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
+
+# ['Field_3_trp_activators_application_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 50,
+#     'MOVING_AVERAGE' : 150,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+
+['Field_2_trp_activators_application_0001',
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 1, 
+    'NUMBER_OF_REF_FRAMES' : 100,
+    'MOVING_AVERAGE' : 100,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
+
+# ['Field_9_trp_activators_application_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 100,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
 #     }
 # ],
 
