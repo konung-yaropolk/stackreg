@@ -185,6 +185,7 @@ def process(
                     ),
                     out,
                     imagej=True,
+                    compression='zlib',
                     metadata=metadata,
                 )
 
@@ -230,6 +231,7 @@ def process(
                 ),
                 out,
                 imagej=True,
+                compression='zlib',
                 metadata=metadata,
             )                
 

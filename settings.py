@@ -444,17 +444,30 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ],
 
-['Field_4_trp_activators_application_0001',
+# ['Field_4_trp_activators_application_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+#     'DISTORTION_TYPE' : 'TRANSLATION',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 100,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
+['Field_4_trp_activators_application_0001_registered',
     {
     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
-    'DISTORTION_TYPE' : 'AFFINE',
-    'REFERENCE_FRAME' : 'previous',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
     'REFERENCE_CHANNEL' : 0, 
-    'NUMBER_OF_REF_FRAMES' : 200,
-    'MOVING_AVERAGE' : 200,
+    'NUMBER_OF_REF_FRAMES' : 40,
+    'MOVING_AVERAGE' : 40,
     'SAVE_TRANSFORM_MATRIX' : True,
     }
 ],
+
+
 
 # ['Field_3_trp_activators_application_0001',
 #     {
@@ -474,8 +487,8 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     'DISTORTION_TYPE' : 'BILINEAR',
     'REFERENCE_FRAME' : 'first',
     'REFERENCE_CHANNEL' : 0, 
-    'NUMBER_OF_REF_FRAMES' : 200,
-    'MOVING_AVERAGE' : 200,
+    'NUMBER_OF_REF_FRAMES' : 20,
+    'MOVING_AVERAGE' : 100,
     'SAVE_TRANSFORM_MATRIX' : True,
     }
 ],
@@ -492,6 +505,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ],
 
+['Field_4_trp_activators_application_0001',
+    {
+    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 0, 
+    'NUMBER_OF_REF_FRAMES' : 100,
+    'MOVING_AVERAGE' : 50,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
 
 
 
