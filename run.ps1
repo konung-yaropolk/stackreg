@@ -1,4 +1,4 @@
-#!/usr/bin/powershell -Command
+#!/usr/bin/env pwsh
 
 Start-Process -FilePath "python" -ArgumentList "stackreg.py" -NoNewWindow -Wait
 Write-Host "Press any key to exit..."
