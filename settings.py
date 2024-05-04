@@ -44,7 +44,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
                                 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
                                 # Use all available CPU cores.
                                 # Faster, but need much more RAM so can be unstable.
 
@@ -455,17 +455,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'SAVE_TRANSFORM_MATRIX' : True,
 #     }
 # ],
-['Field_4_trp_activators_application_0001_registered',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'REFERENCE_CHANNEL' : 1, 
-    'NUMBER_OF_REF_FRAMES' : 40,
-    'MOVING_AVERAGE' : 200,
-    'SAVE_TRANSFORM_MATRIX' : True,
-    }
-],
+# ['Field_4_trp_activators_application_0001_registered',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 40,
+#     'MOVING_AVERAGE' : 200,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
 
 
 
@@ -484,9 +484,9 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 ['Field_2_trp_activators_application_0001',
     {
     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
-    'DISTORTION_TYPE' : 'AFFINE',
+    'DISTORTION_TYPE' : 'BILINEAR',
     'REFERENCE_FRAME' : 'first',
-    'REFERENCE_CHANNEL' : 1, 
+    'REFERENCE_CHANNEL' : 0, 
     'NUMBER_OF_REF_FRAMES' : 20,
     'MOVING_AVERAGE' : 200,
     'SAVE_TRANSFORM_MATRIX' : True,
@@ -505,17 +505,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     }
 # ],
 
-['Field_4_trp_activators_application_0001',
-    {
-    'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
-    'DISTORTION_TYPE' : 'BILINEAR',
-    'REFERENCE_FRAME' : 'first',
-    'REFERENCE_CHANNEL' : 1, 
-    'NUMBER_OF_REF_FRAMES' : 20,
-    'MOVING_AVERAGE' : 50,
-    'SAVE_TRANSFORM_MATRIX' : True,
-    }
-],
+# ['Field_4_trp_activators_application_0001',
+#     {
+#     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 1, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 50,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
 
 
 
