@@ -461,8 +461,8 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 #     'DISTORTION_TYPE' : 'BILINEAR',
 #     'REFERENCE_FRAME' : 'first',
 #     'REFERENCE_CHANNEL' : 1, 
-#     'NUMBER_OF_REF_FRAMES' : 100,
-#     'MOVING_AVERAGE' : 160,
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 40,
 #     'SAVE_TRANSFORM_MATRIX' : True,
 #     }
 # ],
