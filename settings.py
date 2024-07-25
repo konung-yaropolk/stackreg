@@ -579,7 +579,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #     }
     # ],
 
-    ['Field_1_trp_activators_application_0003',
+    ['Field_1_trp_activators_application_0003_ch1',
      {
          'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
          'DISTORTION_TYPE': 'TRANSLATION',
@@ -590,6 +590,18 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
          'SAVE_TRANSFORM_MATRIX': True,
      }
      ],
+
+    # ['Field_1_trp_activators_application_0003_ch2',
+    #  {
+    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DISTORTION_TYPE': 'TRANSLATION',
+    #      'REFERENCE_FRAME': 'previous',
+    #      'REFERENCE_CHANNEL': 1,
+    #      'NUMBER_OF_REF_FRAMES': 20,
+    #      'MOVING_AVERAGE': 150,
+    #      'READ_TRANSFORM_MATRIX': True,
+    #  }
+    #  ],
 
     ['Field_1_trp_activators_application_0003_0001',
      {
