@@ -543,6 +543,65 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
+['2024_07_22\Field_2_trp_activators_application_0001',
+    {
+    #'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    'DISTORTION_TYPE' : 'TRANSLATION',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 0, 
+    'NUMBER_OF_REF_FRAMES' : 20,
+    'MOVING_AVERAGE' : 50,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
+
+['2024_07_22\Field_2_trp_activators_application_0001_ch1_registered',
+    {
+    #'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 0, 
+    'NUMBER_OF_REF_FRAMES' : 20,
+    'MOVING_AVERAGE' : 50,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
+
+['2024_07_22\Field_2_trp_activators_application_0001_ch2_registered',
+    {
+    #'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 0, 
+    'NUMBER_OF_REF_FRAMES' : 20,
+    'MOVING_AVERAGE' : 50,
+    'READ_TRANSFORM_MATRIX' : True,
+    }
+],
+
+['2024_07_23_M1\Field_1_trp_activators_application_0003',
+    {
+    #'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    'DISTORTION_TYPE' : 'BILINEAR',
+    'REFERENCE_FRAME' : 'first',
+    'REFERENCE_CHANNEL' : 1, 
+    'NUMBER_OF_REF_FRAMES' : 20,
+    'MOVING_AVERAGE' : 150,
+    'SAVE_TRANSFORM_MATRIX' : True,
+    }
+],
+
+# ['2024_07_23_M2\Field_1_trp_activators_application_0003_0001',
+#     {
+#     #'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+#     'DISTORTION_TYPE' : 'BILINEAR',
+#     'REFERENCE_FRAME' : 'first',
+#     'REFERENCE_CHANNEL' : 0, 
+#     'NUMBER_OF_REF_FRAMES' : 20,
+#     'MOVING_AVERAGE' : 50,
+#     'SAVE_TRANSFORM_MATRIX' : True,
+#     }
+# ],
 
 
 
