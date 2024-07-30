@@ -567,11 +567,11 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #  }
     #  ],
 
-    ['Field_2_trp_activators_application_0001_ch2_registered_registered',
+    ['Field_2_trp_activators_application_0001_ch1_registered_registered',
      {
          'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
          'DISTORTION_TYPE': 'BILINEAR',
-         'REFERENCE_FRAME': 'first',  # mb previous better
+         'REFERENCE_FRAME': 'first',
          'REFERENCE_CHANNEL': 0,
          'NUMBER_OF_REF_FRAMES': 30,
          'MOVING_AVERAGE': 1,
