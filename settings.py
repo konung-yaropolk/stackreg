@@ -554,16 +554,33 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
-    ['TRP activators movie variant 2 2.434426229508197x.tif (green)',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
-            'DISTORTION_TYPE': 'TRANSLATION',
-            'REFERENCE_FRAME': 'first',
-            'NUMBER_OF_REF_FRAMES': 4,
-            'MOVING_AVERAGE': 1,
-            'READ_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['TRP activators movie variant 2 2.434426229508197x.tif (green)',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'NUMBER_OF_REF_FRAMES': 4,
+    #         'MOVING_AVERAGE': 1,
+    #         'READ_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['TRP activators movie RGB_1.5x.tif (red)',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'NUMBER_OF_REF_FRAMES': 4,
+    #         'MOVING_AVERAGE': 1,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['TRP activators movie RGB_1.5x.tif (green)',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'READ_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
 
 

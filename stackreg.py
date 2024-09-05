@@ -119,7 +119,7 @@ def process(
                 transform_matrix = np.load(
                     DIRECTORY + file + '_transform_matrix.npy')
             else:
-                transform_matrix_list = np.empty((1, len(img[0]), 3, 0))
+                transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
                 # print(img.shape)
                 transform_matrix = np.array([])
 
