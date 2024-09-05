@@ -127,7 +127,7 @@ def process(
 
                 for ch in range(len(img)):
                     if verbose:
-                        print('\n     Registrating file',
+                        print('\n     Analyzing file:',
                               file, ', channel', ch + 1, '...')
 
                     if not READ_TRANSFORM_MATRIX:

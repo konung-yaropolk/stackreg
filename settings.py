@@ -44,7 +44,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -525,8 +525,26 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #     'NUMBER_OF_REF_FRAMES' : 30,
     #     'MOVING_AVERAGE' : 50,
     #     'SAVE_TRANSFORM_MATRIX' : True,
+    #     # 'READ_TRANSFORM_MATRIX' : True,
     #     }
     # ],
+    # ['Field_9_trp_activators_application_0001_ch1_registered',
+    #     {
+    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #     'DISTORTION_TYPE' : 'BILINEAR',
+    #     'REFERENCE_FRAME' : 'first',
+    #     'NUMBER_OF_REF_FRAMES' : 3,
+    #     'MOVING_AVERAGE' : 1,
+    #     'SAVE_TRANSFORM_MATRIX' : True,
+    #     }
+    # ],
+    ['Field_9_trp_activators_application_0001_ch2_registered',
+        {
+        'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+        'READ_TRANSFORM_MATRIX' : True,
+        }
+    ],
+
 
     # ['Field_4_trp_activators_application_0001',
     #     {
@@ -616,17 +634,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #     }
     # ],
 
-    ['Field_1_trp_activators_application_ch2',
-     {
-         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
-        #  'DISTORTION_TYPE': 'TRANSLATION',
-        #  'REFERENCE_FRAME': 'first',
-        #  'REFERENCE_CHANNEL': 1,
-        #  'NUMBER_OF_REF_FRAMES': 50,
-        #  'MOVING_AVERAGE': 250,
-         'READ_TRANSFORM_MATRIX': True,
-     }
-     ],
+    # ['Field_1_trp_activators_application_ch2',
+    #  {
+    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #     #  'DISTORTION_TYPE': 'TRANSLATION',
+    #     #  'REFERENCE_FRAME': 'first',
+    #     #  'REFERENCE_CHANNEL': 1,
+    #     #  'NUMBER_OF_REF_FRAMES': 50,
+    #     #  'MOVING_AVERAGE': 250,
+    #      'READ_TRANSFORM_MATRIX': True,
+    #  }
+    #  ],
 
     # ['Field_1_trp_activators_application_ch2',
     #  {
