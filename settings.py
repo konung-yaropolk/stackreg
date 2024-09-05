@@ -538,12 +538,33 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #     'SAVE_TRANSFORM_MATRIX' : True,
     #     }
     # ],
-    ['Field_9_trp_activators_application_0001_ch2_registered',
+    # ['Field_9_trp_activators_application_0001_ch2_registered',
+    #     {
+    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #     'READ_TRANSFORM_MATRIX' : True,
+    #     }
+    # ],
+    # ['TRP activators movie variant 2 2.434426229508197x.tif (red)',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'NUMBER_OF_REF_FRAMES': 4,
+    #         'MOVING_AVERAGE': 1,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    ['TRP activators movie variant 2 2.434426229508197x.tif (green)',
         {
-        'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
-        'READ_TRANSFORM_MATRIX' : True,
+            'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'first',
+            'NUMBER_OF_REF_FRAMES': 4,
+            'MOVING_AVERAGE': 1,
+            'READ_TRANSFORM_MATRIX': True,
         }
-    ],
+     ],
+
 
 
     # ['Field_4_trp_activators_application_0001',
