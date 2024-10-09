@@ -277,7 +277,10 @@ def main():
 
         cores = mp.cpu_count()          # CPU cores count
         files = len(TODO_LIST)        # Files to do count
-        processes = min(cores, files)
+        max_processes = s.MAX_PROCESSES if s.MAX_PROCESSES else 100
+
+        processes = min(cores, files,
+                        max_processes)
         try:
             pool = mp.Pool(processes)
         except ValueError:

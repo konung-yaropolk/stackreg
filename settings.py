@@ -44,9 +44,15 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
+
+MAX_PROCESSES = 8
+# Maximum size of multiprocessing pull
+# Set the maximum of processes if there isn't enough RAM
+# Set 0 or None to use as many processes as possible
+
 
 TODO_LIST = [                   # list here quoted TIFF file names without .tiff extensions, separated by comma:
 
@@ -1008,6 +1014,346 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #      'READ_TRANSFORM_MATRIX': True,
     #  }
     #  ],
+
+
+    ['Field_2_0001',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_07/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_3_0001',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_07/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+    ['Field_3_0001',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_4_0001',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+    # ['Field_2_0001',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_3',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_5',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_6',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_7',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_8',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_9',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_10',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_11',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_12',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_13',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+    ['Field_2',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_3',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_4',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_5',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_6',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_7',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_8',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_9',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_10',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_11',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_12',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_13',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_14',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+    ['Field_15',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M3/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+
+
+
+
 
     # ['TRP activators movie variant 2 2.434426229508197x.tif (red)',
     #     {
