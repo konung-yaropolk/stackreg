@@ -48,7 +48,7 @@ MULTIPROCESSING = True
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
-MAX_PROCESSES = 8
+PROCESSES_LIMIT = 8
 # Maximum size of multiprocessing pull
 # Set the maximum of processes if there isn't enough RAM
 # Set 0 or None to use as many processes as possible

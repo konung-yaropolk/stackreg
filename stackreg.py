@@ -277,10 +277,10 @@ def main():
 
         cores = mp.cpu_count()          # CPU cores count
         files = len(TODO_LIST)        # Files to do count
-        max_processes = s.MAX_PROCESSES if s.MAX_PROCESSES else 100
+        processes_limit = s.PROCESSES_LIMIT if s.PROCESSES_LIMIT else 100
 
         processes = min(cores, files,
-                        max_processes)
+                        processes_limit)
         try:
             pool = mp.Pool(processes)
         except ValueError:
@@ -289,7 +289,7 @@ def main():
 
         print('\nParallel processing mode activated:')
         print('Please, ensure if you have enough RAM for multiprocessing.')
-        print('If calculations went wrong, please, disable the MULTIPROCESSING option in the settings.py')
+        print('If processing went wrong, please, use PROCESSES_LIMIT option in the settings.py')
         print('{0} cpu cores per queue of {1} files found, pool of {2} processes created.'.format(
             cores, files, processes))
 
