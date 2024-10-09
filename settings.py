@@ -1039,33 +1039,33 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
         }
      ],
 
-    ['Field_3_0001',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
-    ['Field_4_0001',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_3_0001',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4_0001',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M1/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
     # ['Field_2_0001',
     #     {
     #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'AFFINE',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
     #         'NUMBER_OF_REF_FRAMES': 100,
@@ -1076,7 +1076,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     # ['Field_3',
     #     {
     #         'DIRECTORY': 'F:/Lab Work Files/2-photon/GCamp3+jRgeco_injection + DRS + Caps/2024_10_08_M2/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'AFFINE',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
     #         'NUMBER_OF_REF_FRAMES': 100,
