@@ -1027,6 +1027,28 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #      'SAVE_TRANSFORM_MATRIX': True,
     #  }
     #  ],
+    # ['Field_1_trp_activators_application_ch1_registered',
+    #  {
+    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DISTORTION_TYPE': 'RIGID_BODY',
+    #      'REFERENCE_FRAME': 'first',
+    #      'NUMBER_OF_REF_FRAMES': 1,
+    #      'MOVING_AVERAGE': 1,
+    #      'READ_TRANSFORM_MATRIX': True,
+    #  }
+    #  ],
+    # ['Field_1_trp_activators_application_ch1_registered_registered',
+    #  {
+    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DISTORTION_TYPE': 'RIGID_BODY',
+    #      'REFERENCE_FRAME': 'first',
+    #      'NUMBER_OF_REF_FRAMES': 1,
+    #      'MOVING_AVERAGE': 1,
+    #      'READ_TRANSFORM_MATRIX': True,
+    #  }
+    #  ],
+
+
     # ['Field_1_trp_activators_application_ch2_registered',
     #  {
     #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
