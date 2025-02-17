@@ -1225,7 +1225,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     # ['Field_2_0001',
     #     {
     #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
     #         'NUMBER_OF_REF_FRAMES': 100,
@@ -1236,7 +1236,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     # ['Field_3_0001',
     #     {
     #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
     #         'NUMBER_OF_REF_FRAMES': 100,
@@ -2461,17 +2461,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
-    ['Field_6_DRS+CNQX+AP5_0001',
-        {
-            'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_6_DRS+CNQX+AP5_0001',
+    #     {
+    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
 
 
