@@ -1747,7 +1747,7 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     # ['Field_14_2',
     #     {
     #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
     #         'NUMBER_OF_REF_FRAMES': 100,
