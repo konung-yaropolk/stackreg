@@ -2220,6 +2220,161 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #     }
     #  ],
 
+    # ['Field_1',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_2',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_3',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4_1',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4_2',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4_3',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_4_4',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_5_0001',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+    # ['Field_6',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_7',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_9',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    ['Field_10',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 100,
+            'MOVING_AVERAGE': 100,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+
+
+
+
+
+
+
+
+
+
 
 
 
