@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pystackreg
 import tifffile
-import settings as s
+import settings_PI_project as s
 
 
 def file_finder(path, pattern, nonrecursive=False):
@@ -98,13 +98,14 @@ def process(
 
     # Bad construction, to review:
     try:
-        img = tifffile.imread(DIRECTORY + file + '.tif')
+        img = tifffile.imread(os.path.abspath(DIRECTORY + file + '.tif'))
     except:
 
         try:
-            img = tifffile.imread(DIRECTORY + file + '.tiff')
+            img = tifffile.imread(os.path.abspath(DIRECTORY + file + '.tiff'))
         except Exception as e:
-            print('\n!!! ', DIRECTORY + file, '- File not found')
+            print('\n!!! ', os.path.abspath(
+                DIRECTORY + file), '- File not found')
             return e
 
     try:
@@ -116,8 +117,8 @@ def process(
             # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
 
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(
-                    DIRECTORY + file + '_transform_matrix.npy')
+                transform_matrix = np.load(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix.npy'))
             else:
                 transform_matrix_list = np.empty((1, len(img[0]), 4, 0))
                 # print(img.shape)
@@ -155,7 +156,8 @@ def process(
 
                     if SAVE_TRANSFORM_MATRIX:
                         np.save(
-                            DIRECTORY + file + '_transform_matrix',
+                            os.path.abspath(DIRECTORY + file +
+                                            '_transform_matrix'),
                             transform_matrix,
                             allow_pickle=False,
                             fix_imports=True,
@@ -195,8 +197,8 @@ def process(
         elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
             if READ_TRANSFORM_MATRIX:
-                transform_matrix = np.load(
-                    DIRECTORY + file + '_transform_matrix.npy')
+                transform_matrix = np.load(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix.npy'))
                 print('Transform matrix found for this file')
             else:
                 transform_matrix = np.array([])
@@ -211,8 +213,8 @@ def process(
                 )
 
             if SAVE_TRANSFORM_MATRIX:
-                np.save(
-                    DIRECTORY + file + '_transform_matrix',
+                np.save(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix'),
                     transform_matrix,
                     allow_pickle=False,
                     fix_imports=True,
@@ -267,7 +269,7 @@ def process(
 def main():
 
     if s.TAKE_ALL_FILES:
-        TODO_LIST = file_finder(s.DIRECTORY, r'.*\.tif')
+        TODO_LIST = file_finder(os.path.abspath(s.DIRECTORY), r'.*\.tif')
     else:
         TODO_LIST = s.TODO_LIST
 
