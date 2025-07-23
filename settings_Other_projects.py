@@ -44,7 +44,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -2354,17 +2354,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
-    ['Field_10',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_10',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
 
 
@@ -3022,6 +3022,53 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     # 'Microglia + C5a/2023_11_21/D',
     # 'Microglia + C5a/2023_11_21/F',
     # 'Microglia + C5a/2023_11_21/G_0001',
+
+
+
+
+
+
+
+
+    # # HSD2-brainstem-slices
+
+
+    # ['Slice_1_Angiotensin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_06_23/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+    # ['Slice_2_Angiotensin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_06_23/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+    ['Slice_1_Angiotensin_application',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_23/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
 
 
 ]
