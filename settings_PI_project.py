@@ -1381,17 +1381,17 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
-    ['Field_7_2',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_7_2',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
 
 
