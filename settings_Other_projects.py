@@ -3123,29 +3123,29 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
 
 
 
-    ['Field_1_Caps_activators_application',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_28/',
-            'DISTORTION_TYPE': 'TRANSLATION',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 10,
-            'MOVING_AVERAGE': 5,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_1_Caps_activators_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_28/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
-    ['Field_1_Caps_activators_application',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_29_M1/',
-            'DISTORTION_TYPE': 'TRANSLATION',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 10,
-            'MOVING_AVERAGE': 5,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_1_Caps_activators_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_29_M1/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
 
     ['Field_1_Caps_activators_application',
         {
