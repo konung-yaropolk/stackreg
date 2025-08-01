@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pystackreg
 import tifffile
-import settings_PI_project as s
+import settings_Other_projects as s
 
 
 def file_finder(path, pattern, nonrecursive=False):
@@ -82,6 +82,7 @@ def process(
         case _: sr = pystackreg.StackReg(pystackreg.StackReg.TRANSLATION)
 
     metadata = {
+        # 'axes': 'TZCYXS',
         ' Current File': DIRECTORY + file + '_registered',
         ' Original File': DIRECTORY + file,
         ' Transformation Matrix Used': READ_TRANSFORM_MATRIX,

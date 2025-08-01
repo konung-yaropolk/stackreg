@@ -3058,17 +3058,110 @@ TODO_LIST = [                   # list here quoted TIFF file names without .tiff
     #  ],
 
 
-    ['Slice_1_Angiotensin_application',
+    # ['Slice_1_Angiotensin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_23/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 1,
+    #         'MOVING_AVERAGE': 1,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+
+    # ['Slice_1b_Angiotensin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Slice_2_Angiotensin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+    # ['Slice_1_Angiotensin_DCZ_application_0001',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Slice_2_Angiotensin_DCZ_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 10,
+    #         'MOVING_AVERAGE': 5,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+
+    ['Field_1_Caps_activators_application',
         {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_23/',
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_28/',
             'DISTORTION_TYPE': 'TRANSLATION',
             'REFERENCE_FRAME': 'first',
             'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 1,
-            'MOVING_AVERAGE': 1,
+            'NUMBER_OF_REF_FRAMES': 10,
+            'MOVING_AVERAGE': 5,
             'SAVE_TRANSFORM_MATRIX': True,
         }
      ],
+
+    ['Field_1_Caps_activators_application',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_29_M1/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 10,
+            'MOVING_AVERAGE': 5,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+    ['Field_1_Caps_activators_application',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_30/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 10,
+            'MOVING_AVERAGE': 5,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
+
+
+
+
 
 
 ]
