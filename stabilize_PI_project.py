@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-# Settings block:
 
+# Global settings block
+# Theese parameters are used by default if nothing specified for given movie in the TO_DO_LIST
 
 DIRECTORY = 'data/'
 # Provide full path to files. Leave quotes empty if the files in the same directory with this script
@@ -12,8 +13,17 @@ DISTORTION_TYPE = 'BILINEAR'
 # AFFINE             - translation + rotation + scaling + shearing
 # BILINEAR           - non-linear transformation (no support for 'previous' reference frame mode)
 
+# to indentify it open the original tiff file and see which moving occurred
+# (most often it's translation, affine or bilinear)
+# In severe distortion cases stabilization can be processed multiple times with different parameters.
+# Transformations can be applied subsequently on the same file with different name,
+# f.e. first run “transformation” and then “bilinear”
+
+
 REFERENCE_FRAME = 'first'
-# first, previous, mean
+# Can be first, previous, or mean, most often first is the best option. In severe distortion
+# cases stabilization can be processed multiple times with different parameters.
+# f.e. first run "previous" and then "first".
 
 NUMBER_OF_REF_FRAMES = 15
 # If reference is 'first', then this parameter specifies the
@@ -48,14 +58,14 @@ MULTIPROCESSING = True
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
-PROCESSES_LIMIT = 3
+PROCESSES_LIMIT = 10
 # Maximum size of multiprocessing pull
 # Set the maximum of processes if there isn't enough RAM
 # Set 0 or None to use as many processes as possible
 
 
-TODO_LIST = [                   # list here quoted TIFF file names without .tiff extensions, separated by comma:
-
+# list here quoted TIFF file names without .tiff extensions, separated by comma:
+TODO_LIST = [
 
     # # PI project:
 
