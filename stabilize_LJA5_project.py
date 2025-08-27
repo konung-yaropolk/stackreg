@@ -54,7 +54,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -77,6 +77,39 @@ TODO_LIST = [
     #         'MOVING_AVERAGE': 20,
     #     }
     #  ],
+
+
+    ['Field_1_Dynorphin_application',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_22/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'NUMBER_OF_REF_FRAMES': 20,
+            'MOVING_AVERAGE': 20,
+        }
+     ],
+
+    ['Field_1_Dynorphin_application',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_25/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'NUMBER_OF_REF_FRAMES': 20,
+            'MOVING_AVERAGE': 20,
+        }
+     ],
+
+    ['Field_1',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_26/',
+            'DISTORTION_TYPE': 'BILINEAR',
+            'REFERENCE_FRAME': 'first',
+            'NUMBER_OF_REF_FRAMES': 20,
+            'MOVING_AVERAGE': 20,
+        }
+     ],
+
+
 
 
 

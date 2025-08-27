@@ -109,6 +109,8 @@ def process(
                 DIRECTORY + file), '- File not found')
             return e
 
+    img = img.astype(np.float16)
+
     # try:
 
     print('\n>>> ', file, '- started working with the file...')
@@ -116,6 +118,7 @@ def process(
     if img.ndim == 4:
 
         # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
+        # UPD kinda solved it but not sure. If not - fix it another way
 
         if READ_TRANSFORM_MATRIX:
             transform_matrix = np.load(os.path.abspath(
