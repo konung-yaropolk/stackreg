@@ -109,7 +109,7 @@ def process(
                 DIRECTORY + file), '- File not found')
             return e
 
-    img = img.astype(np.float16)
+    # img = img.astype(np.float16)
 
     # try:
 
