@@ -89,19 +89,19 @@ TODO_LIST = [
     #     }
     #  ],
 
-    ['Field_1_Dynorphin_application',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_25/',
-            'DISTORTION_TYPE': 'AFFINE',
-            'REFERENCE_FRAME': 'first',
-            'NUMBER_OF_REF_FRAMES': 20,
-            'MOVING_AVERAGE': 20,
-        }
-     ],
+    # ['Field_1_Dynorphin_application',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_25/',
+    #         'DISTORTION_TYPE': 'AFFINE',
+    #         'REFERENCE_FRAME': 'first',
+    #         'NUMBER_OF_REF_FRAMES': 20,
+    #         'MOVING_AVERAGE': 20,
+    #     }
+    #  ],
 
     # ['Field_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_26/',
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project Dynorphin control/2025_08_26/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
