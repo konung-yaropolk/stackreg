@@ -105,7 +105,7 @@ TODO_LIST = [
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
-    #         'MOVING_AVERAGE': 20,
+    #         'MOVING_AVERAGE': 60,
     #     }
     #  ],
 
