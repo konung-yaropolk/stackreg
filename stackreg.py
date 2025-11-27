@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pystackreg
 import tifffile
-import stabilize_LJA5_project as s
+import stabilize_PI_project as s
 
 
 def file_finder(path, pattern, nonrecursive=False):
