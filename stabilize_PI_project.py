@@ -1411,34 +1411,6 @@ TODO_LIST = [
 
 
 
-    # ['Field_1_CNO_Dynorphine_Naloxone',
-    #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_12/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
-    #         'REFERENCE_FRAME': 'first',
-    #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
-    #         'SAVE_TRANSFORM_MATRIX': True,
-    #     }
-    #  ],
-
-
-
-
-    ['Field_1_CNO_Dynorphine_Naloxone',
-        {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_13/',
-            'DISTORTION_TYPE': 'BILINEAR',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 100,
-            'MOVING_AVERAGE': 100,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
-
-
 
 
 
