@@ -54,7 +54,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -138,6 +138,50 @@ TODO_LIST = [
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # # 3D stacks
+
+    # ['C1-Field_1_z-overview_mCherry',
+    #     {
+    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'previous',
+    #         # 'REFERENCE_CHANNEL': 1,
+    #         'NUMBER_OF_REF_FRAMES': 1,
+    #         'MOVING_AVERAGE': 1,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+    ['C2-Field_1_z-overview_mCherry',
+        {
+            'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'READ_TRANSFORM_MATRIX': True,
+        }
+     ],
 
 
 

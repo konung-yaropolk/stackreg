@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pystackreg
 import tifffile
-import stabilize_PI_project as s
+import stabilize_LJA5_project as s
 
 
 def file_finder(path, pattern, nonrecursive=False):
@@ -223,8 +223,8 @@ def process(
             np.save(os.path.abspath(
                 DIRECTORY + file + '_transform_matrix'),
                 transform_matrix,
-                allow_pickle=False,
-                fix_imports=True,
+                allow_pickle=True,
+                # fix_imports=True,
             )
 
         out = transform(
