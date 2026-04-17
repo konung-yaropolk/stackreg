@@ -71,7 +71,7 @@ TODO_LIST = [
 
     # ['Field_1_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -82,7 +82,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -93,7 +93,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -104,7 +104,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -116,7 +116,7 @@ TODO_LIST = [
 
     # ['Field_2_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -127,7 +127,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -139,7 +139,7 @@ TODO_LIST = [
 
     # ['Field_3_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -150,7 +150,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -161,7 +161,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -172,7 +172,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -183,7 +183,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -195,7 +195,7 @@ TODO_LIST = [
 
     # ['Field_4_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -206,7 +206,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -217,7 +217,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -228,7 +228,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -241,7 +241,7 @@ TODO_LIST = [
 
     # ['Field_5_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -252,7 +252,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -264,7 +264,7 @@ TODO_LIST = [
 
     # ['Field_6_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -276,7 +276,7 @@ TODO_LIST = [
 
     # ['Field_6_Bradikinin_application_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -287,7 +287,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_7_Dynorphin_application_ch1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -298,7 +298,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_7_Dynorphin_application_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -327,7 +327,7 @@ TODO_LIST = [
 
     # ['Field_1_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -338,7 +338,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -349,7 +349,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_14/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -380,7 +380,7 @@ TODO_LIST = [
 
     # ['Field_1_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -391,7 +391,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -402,7 +402,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -413,7 +413,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -424,7 +424,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -439,7 +439,7 @@ TODO_LIST = [
 
     # ['Field_2_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -450,7 +450,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -461,7 +461,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -472,7 +472,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -483,7 +483,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_7_Dynorphin_application_ch1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -494,7 +494,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_7_Dynorphin_application_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -532,7 +532,7 @@ TODO_LIST = [
 
     # ['Field_1_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -543,7 +543,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -554,7 +554,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_0001_ch1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -565,7 +565,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_1_3_0001_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -576,7 +576,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -587,7 +587,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -598,7 +598,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -609,7 +609,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -620,7 +620,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -631,7 +631,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -642,7 +642,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -653,7 +653,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -664,7 +664,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -675,7 +675,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -686,7 +686,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -697,7 +697,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -708,7 +708,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_Dynorphin_application_ch1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -719,7 +719,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_Dynorphin_application_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_20/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -775,7 +775,7 @@ TODO_LIST = [
 
     # ['Field_1_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -786,7 +786,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -797,7 +797,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -808,7 +808,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -819,7 +819,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_1_0001_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -830,7 +830,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_1_0002',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -841,7 +841,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -852,7 +852,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -863,7 +863,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -874,7 +874,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -885,7 +885,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -896,7 +896,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -907,7 +907,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -918,7 +918,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -929,7 +929,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -940,7 +940,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -951,7 +951,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -962,7 +962,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -973,7 +973,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -984,7 +984,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -995,7 +995,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1006,7 +1006,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1017,7 +1017,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1028,7 +1028,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1039,7 +1039,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1050,7 +1050,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1061,7 +1061,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1072,7 +1072,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1083,7 +1083,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1094,7 +1094,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1105,7 +1105,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_3_Bradikinin_application_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1116,7 +1116,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11_Dynorphin_application_ch1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1127,7 +1127,7 @@ TODO_LIST = [
     # #  ],
     # ['Field_11_Dynorphin_application_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_21/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1151,7 +1151,7 @@ TODO_LIST = [
 
     # ['Field_1_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1162,7 +1162,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1173,7 +1173,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1184,7 +1184,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1196,7 +1196,7 @@ TODO_LIST = [
 
     # ['Field_2_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1207,7 +1207,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1218,7 +1218,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1229,7 +1229,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1242,7 +1242,7 @@ TODO_LIST = [
 
     # ['Field_3_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1253,7 +1253,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1264,7 +1264,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1275,7 +1275,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1288,7 +1288,7 @@ TODO_LIST = [
 
     # ['Field_4_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1299,7 +1299,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1310,7 +1310,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1321,7 +1321,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1334,7 +1334,7 @@ TODO_LIST = [
 
     # ['Field_5_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1345,7 +1345,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1358,7 +1358,7 @@ TODO_LIST = [
 
     # ['Field_6_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1369,7 +1369,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1382,7 +1382,7 @@ TODO_LIST = [
 
     # ['Field_7_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1393,7 +1393,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1410,7 +1410,7 @@ TODO_LIST = [
 
     # ['Field_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project Dynorphin control/2025_08_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project Dynorphin control/2025_08_25/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1421,7 +1421,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project Dynorphin control/2025_08_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project Dynorphin control/2025_08_25/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1432,7 +1432,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project Dynorphin control/2025_08_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project Dynorphin control/2025_08_25/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1450,7 +1450,7 @@ TODO_LIST = [
 
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1461,7 +1461,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1472,7 +1472,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1483,7 +1483,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1494,7 +1494,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1505,7 +1505,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1516,7 +1516,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1527,7 +1527,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1538,7 +1538,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1549,7 +1549,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1560,7 +1560,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1571,7 +1571,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1586,7 +1586,7 @@ TODO_LIST = [
 
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1597,7 +1597,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1608,7 +1608,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_06/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1621,7 +1621,7 @@ TODO_LIST = [
 
     ['Field_3_DRS',
         {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+            'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
             'DISTORTION_TYPE': 'TRANSLATION',
             'REFERENCE_FRAME': 'first',
             'REFERENCE_CHANNEL': 0,

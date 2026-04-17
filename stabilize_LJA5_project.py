@@ -70,7 +70,7 @@ TODO_LIST = [
 
     # ['Field_7_Dynorphin_application_ch2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/PI_Pirt_GCamp3_x_Thy1_RGeco_PP_and_fiber_typing/2025_05_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
@@ -81,7 +81,7 @@ TODO_LIST = [
 
     # ['Field_1_Dynorphin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_22/',
+    #         'DIRECTORY': 'F:/LabWork/Stacey/LJA5 project Dynorphin control/2025_08_22/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
@@ -91,7 +91,7 @@ TODO_LIST = [
 
     # ['Field_1_Dynorphin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Stacey/LJA5 project Dynorphin control/2025_08_25/',
+    #         'DIRECTORY': 'F:/LabWork/Stacey/LJA5 project Dynorphin control/2025_08_25/',
     #         'DISTORTION_TYPE': 'AFFINE',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
@@ -101,7 +101,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project Dynorphin control/2025_08_26/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project Dynorphin control/2025_08_26/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 20,
@@ -114,7 +114,7 @@ TODO_LIST = [
 
     # ['Field_1_CNO_Dynorphine_Naloxone',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_12/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_12/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -129,7 +129,7 @@ TODO_LIST = [
 
     # ['Field_1_CNO_Dynorphine_Naloxone',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_13/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_11_13/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -160,7 +160,7 @@ TODO_LIST = [
 
     # ['C1-Field_1_z-overview_mCherry',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'previous',
     #         # 'REFERENCE_CHANNEL': 1,
@@ -173,7 +173,7 @@ TODO_LIST = [
 
     ['C2-Field_1_z-overview_mCherry',
         {
-            'DIRECTORY': 'F:/Lab Work Files/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+            'DIRECTORY': 'F:/LabWork/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
             'DISTORTION_TYPE': 'TRANSLATION',
             'REFERENCE_FRAME': 'previous',
             # 'REFERENCE_CHANNEL': 1,

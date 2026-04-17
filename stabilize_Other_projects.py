@@ -72,7 +72,7 @@ TODO_LIST = [
 
     # ['Field 1_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 1,
@@ -82,7 +82,7 @@ TODO_LIST = [
     # ],
     # ['Field 1_0001_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 1,
@@ -92,7 +92,7 @@ TODO_LIST = [
     # ],
     # ['Field 1_0001_ch2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M1/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 1,
@@ -103,7 +103,7 @@ TODO_LIST = [
 
     # ['Field 1_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M2/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M2/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -113,7 +113,7 @@ TODO_LIST = [
     # ],
     # ['Field 1_0001_ch2_registered_',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M2/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2023_12_22_M2/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -124,7 +124,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -134,7 +134,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_0001_DRS_part',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -144,7 +144,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_0001_drug_part',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -154,7 +154,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_0001_drug_part_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_02_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -165,7 +165,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -175,7 +175,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_05_M4/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -186,7 +186,7 @@ TODO_LIST = [
 
     # ['Field_2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -196,7 +196,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -206,7 +206,7 @@ TODO_LIST = [
     # ],
     # ['Field_3_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -216,7 +216,7 @@ TODO_LIST = [
     # ],
     # ['Field_3_0001_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_08_M5/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -227,7 +227,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -237,7 +237,7 @@ TODO_LIST = [
     # ],
     # ['Field_2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -247,7 +247,7 @@ TODO_LIST = [
     # ],
     # ['Field_3_ch1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -257,7 +257,7 @@ TODO_LIST = [
     # ],
     # ['Field_3_ch2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_10_M6/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -268,7 +268,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -278,7 +278,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -288,7 +288,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
     #     'DISTORTION_TYPE' : 'SCALED_ROTATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -298,7 +298,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -310,7 +310,7 @@ TODO_LIST = [
 
     # ['Field_2_ch2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_12_M7/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -321,7 +321,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -331,7 +331,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch1',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
     #     'DISTORTION_TYPE' : 'SCALED_ROTATION',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -341,7 +341,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -351,7 +351,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -361,7 +361,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_ch2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_02_13_M8/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'REFERENCE_CHANNEL' : 0,
@@ -373,7 +373,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -384,7 +384,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -395,7 +395,7 @@ TODO_LIST = [
     # ],
     # ['Field_3',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -406,7 +406,7 @@ TODO_LIST = [
     # ],
     # ['Field_4',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -417,7 +417,7 @@ TODO_LIST = [
     # ],
     # ['Field_5',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -428,7 +428,7 @@ TODO_LIST = [
     # ],
     # ['Field_6',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -439,7 +439,7 @@ TODO_LIST = [
     # ],
     # ['Field_7_0001_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_19/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -451,7 +451,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -463,7 +463,7 @@ TODO_LIST = [
 
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -475,7 +475,7 @@ TODO_LIST = [
 
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -487,7 +487,7 @@ TODO_LIST = [
 
     # ['Field_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -499,7 +499,7 @@ TODO_LIST = [
 
     # ['Field_5_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -510,7 +510,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -521,7 +521,7 @@ TODO_LIST = [
     #  ],
     # ['Field 7_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -534,7 +534,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -545,7 +545,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -556,7 +556,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -567,7 +567,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -578,7 +578,7 @@ TODO_LIST = [
     # ],
     # ['Field_4_trp_activators_application_0001_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M1/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 1,
@@ -591,7 +591,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -602,7 +602,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -613,7 +613,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_24_M2/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -625,7 +625,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -636,7 +636,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
     #     'DISTORTION_TYPE' : 'TRANSLATION',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -647,7 +647,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_trp_activators_application_0001_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -658,7 +658,7 @@ TODO_LIST = [
     # ],
     # ['Field_2_trp_activators_application_0001_ch2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_25/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -670,7 +670,7 @@ TODO_LIST = [
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -681,7 +681,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -692,7 +692,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -703,7 +703,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_enlarged_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -714,7 +714,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -725,7 +725,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -736,7 +736,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -747,7 +747,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -758,7 +758,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -769,7 +769,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 1,
@@ -781,7 +781,7 @@ TODO_LIST = [
     # ],
     # ['Field_9_trp_activators_application_0001_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 3,
@@ -791,14 +791,14 @@ TODO_LIST = [
     # ],
     # ['Field_9_trp_activators_application_0001_ch2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
     #     'READ_TRANSFORM_MATRIX' : True,
     #     }
     # ],
 
     # ['Field_1_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -809,7 +809,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -820,7 +820,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -831,7 +831,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_trp_activators_application_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_05_01/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 1,
@@ -846,7 +846,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'previous',
     #      'REFERENCE_CHANNEL': 1,
@@ -858,7 +858,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',  # mb previous better
     #      'REFERENCE_CHANNEL': 0,
@@ -870,7 +870,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001_ch1_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -882,7 +882,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001_ch1_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -895,7 +895,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001_ch1_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -907,7 +907,7 @@ TODO_LIST = [
 
     # ['Field_2_trp_activators_application_0001_ch2_registered',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_22/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'REFERENCE_CHANNEL' : 0,
@@ -919,7 +919,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch2',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
     #     #  'DISTORTION_TYPE': 'TRANSLATION',
     #     #  'REFERENCE_FRAME': 'first',
     #     #  'REFERENCE_CHANNEL': 1,
@@ -931,7 +931,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch2',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 1,
@@ -943,7 +943,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
     #      'DISTORTION_TYPE': 'AFFINE',
     #      'REFERENCE_FRAME': 'previous',
     #      'REFERENCE_CHANNEL': 1,
@@ -955,7 +955,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch1_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 1,
@@ -968,7 +968,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch2',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M1/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'previous',
     #      'REFERENCE_CHANNEL': 1,
@@ -980,7 +980,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_0003_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'previous',
     #      'REFERENCE_CHANNEL': 0,
@@ -992,7 +992,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_0003_0001_ch2_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1004,7 +1004,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_0003_0001_ch2_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1016,7 +1016,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_0003_0001_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_07_23_M2/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1030,7 +1030,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch1',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 1,
@@ -1040,7 +1040,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 1,
@@ -1050,7 +1050,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch1_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 1,
@@ -1062,7 +1062,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch2_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 150,
@@ -1072,7 +1072,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch2_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'TRANSLATE',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 5,
@@ -1082,7 +1082,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch2_registered_registered_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 13,
@@ -1094,7 +1094,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch1',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 1,
@@ -1104,7 +1104,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch2_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_16/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 10,
@@ -1117,7 +1117,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch1',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'MOVING_AVERAGE': 1,
@@ -1126,7 +1126,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
     #      'DISTORTION_TYPE': 'AFFINE',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 20,
@@ -1138,7 +1138,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application_ch2',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
     #      'DISTORTION_TYPE': 'RIGID_BODY',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 1,
@@ -1148,7 +1148,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_trp_activators_application_ch2_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M1/',
     #      'DISTORTION_TYPE': 'AFFINE',
     #      'REFERENCE_FRAME': 'first',
     #      'NUMBER_OF_REF_FRAMES': 20,
@@ -1162,7 +1162,7 @@ TODO_LIST = [
 
     # ['Field_1_trp_activators_application',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M2/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1173,7 +1173,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_DRS',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_17_M2/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1185,7 +1185,7 @@ TODO_LIST = [
 
     # ['Field_11_trp_activators_application_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1197,7 +1197,7 @@ TODO_LIST = [
 
     # ['Field_11_DRS_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1209,7 +1209,7 @@ TODO_LIST = [
 
     # ['Field_8_trp_activators_application_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1221,7 +1221,7 @@ TODO_LIST = [
 
     # ['Field_9_DRS_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -1235,7 +1235,7 @@ TODO_LIST = [
 
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1246,7 +1246,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_07/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1258,7 +1258,7 @@ TODO_LIST = [
 
     # ['Field_3_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1269,7 +1269,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1281,7 +1281,7 @@ TODO_LIST = [
 
     # ['Field_2_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'AFFINE',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1292,7 +1292,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'AFFINE',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1303,7 +1303,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1314,7 +1314,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1325,7 +1325,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1336,7 +1336,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1347,7 +1347,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1358,7 +1358,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1369,7 +1369,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1380,7 +1380,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1391,7 +1391,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1402,7 +1402,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1415,7 +1415,7 @@ TODO_LIST = [
 
     # ['Field_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1426,7 +1426,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1437,7 +1437,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1448,7 +1448,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1459,7 +1459,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1470,7 +1470,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1481,7 +1481,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1492,7 +1492,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1503,7 +1503,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1514,7 +1514,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1525,7 +1525,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1536,7 +1536,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1547,7 +1547,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1558,7 +1558,7 @@ TODO_LIST = [
     #  ],
     # ['Field_15',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M3/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1570,7 +1570,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1581,7 +1581,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1592,7 +1592,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1603,7 +1603,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1614,7 +1614,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1625,7 +1625,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1636,7 +1636,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1647,7 +1647,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1658,7 +1658,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1669,7 +1669,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1680,7 +1680,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1691,7 +1691,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1702,7 +1702,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1713,7 +1713,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1724,7 +1724,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1735,7 +1735,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1746,7 +1746,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1757,7 +1757,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1768,7 +1768,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1779,7 +1779,7 @@ TODO_LIST = [
     #  ],
     # ['Field_15',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1790,7 +1790,7 @@ TODO_LIST = [
     #  ],
     # ['Field_16',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1801,7 +1801,7 @@ TODO_LIST = [
     #  ],
     # ['Field_17',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1812,7 +1812,7 @@ TODO_LIST = [
     #  ],
     # ['Field_18',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_10/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1825,7 +1825,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1836,7 +1836,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1847,7 +1847,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1858,7 +1858,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1869,7 +1869,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1880,7 +1880,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1891,7 +1891,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1902,7 +1902,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1913,7 +1913,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1924,7 +1924,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1935,7 +1935,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1946,7 +1946,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1957,7 +1957,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1968,7 +1968,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1979,7 +1979,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -1990,7 +1990,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2001,7 +2001,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2012,7 +2012,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2023,7 +2023,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2034,7 +2034,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2045,7 +2045,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2056,7 +2056,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2067,7 +2067,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2078,7 +2078,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_5',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2089,7 +2089,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2100,7 +2100,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2111,7 +2111,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_8',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2122,7 +2122,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2133,7 +2133,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2144,7 +2144,7 @@ TODO_LIST = [
     #  ],
     # ['Field_11',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2155,7 +2155,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2166,7 +2166,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2177,7 +2177,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2188,7 +2188,7 @@ TODO_LIST = [
     #  ],
     # ['Field_15',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2199,7 +2199,7 @@ TODO_LIST = [
     #  ],
     # ['Field_15_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2210,7 +2210,7 @@ TODO_LIST = [
     #  ],
     # ['Field_15_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2221,7 +2221,7 @@ TODO_LIST = [
     #  ],
     # ['Field_16',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_11/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2233,7 +2233,7 @@ TODO_LIST = [
 
     # ['Field_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2244,7 +2244,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2255,7 +2255,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2266,7 +2266,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2277,7 +2277,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_1',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2288,7 +2288,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_2',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2299,7 +2299,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_3',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2310,7 +2310,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_4',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2321,7 +2321,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2333,7 +2333,7 @@ TODO_LIST = [
 
     # ['Field_6',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2344,7 +2344,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2355,7 +2355,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2366,7 +2366,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_15/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2391,7 +2391,7 @@ TODO_LIST = [
 
     # ['Field_1_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2402,7 +2402,7 @@ TODO_LIST = [
     #  ],
     # ['Field_2_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2413,7 +2413,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2424,7 +2424,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2435,7 +2435,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2446,7 +2446,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2457,7 +2457,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2468,7 +2468,7 @@ TODO_LIST = [
     #  ],
     # ['Field_8_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2479,7 +2479,7 @@ TODO_LIST = [
     #  ],
     # ['Field_9_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2490,7 +2490,7 @@ TODO_LIST = [
     #  ],
     # ['Field_10_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2501,7 +2501,7 @@ TODO_LIST = [
     #  ],
     # ['Field_12_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2512,7 +2512,7 @@ TODO_LIST = [
     #  ],
     # ['Field_13_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2523,7 +2523,7 @@ TODO_LIST = [
     #  ],
     # ['Field_14_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2537,7 +2537,7 @@ TODO_LIST = [
 
     # ['Field_4_PI_0002',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2548,7 +2548,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2559,7 +2559,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2570,7 +2570,7 @@ TODO_LIST = [
     #  ],
     # ['Field_7_PI_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_11_18_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2585,7 +2585,7 @@ TODO_LIST = [
 
     # ['Field_2_DRS',
     #     {
-    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2596,7 +2596,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_DRS',
     #     {
-    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2607,7 +2607,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_DRS',
     #     {
-    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2618,7 +2618,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_DRS',
     #     {
-    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2629,7 +2629,7 @@ TODO_LIST = [
     #  ],
     # ['Field_6_DRS+CNQX+AP5_0001',
     #     {
-    #         'DIRECTORY': 'D:/Lab Work Files/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2664,7 +2664,7 @@ TODO_LIST = [
 
     # ['TRP activators movie variant 2 2.434426229508197x.tif (red)',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DIRECTORY': 'F:/LabWork/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 4,
@@ -2674,7 +2674,7 @@ TODO_LIST = [
     #  ],
     # ['TRP activators movie variant 2 2.434426229508197x.tif (green)',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DIRECTORY': 'F:/LabWork/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 4,
@@ -2684,7 +2684,7 @@ TODO_LIST = [
     #  ],
     # ['TRP activators movie RGB_1.5x.tif (red)',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DIRECTORY': 'F:/LabWork/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'NUMBER_OF_REF_FRAMES': 4,
@@ -2694,7 +2694,7 @@ TODO_LIST = [
     #  ],
     # ['TRP activators movie RGB_1.5x.tif (green)',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
+    #         'DIRECTORY': 'F:/LabWork/Projects/TRP project/Paper preparing/Supplements/TRP Activators/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'READ_TRANSFORM_MATRIX': True,
     #     }
@@ -2709,7 +2709,7 @@ TODO_LIST = [
     # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/7',
     # ['8_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_24_M1/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'previous',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2723,7 +2723,7 @@ TODO_LIST = [
 
     # ['2',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2732,7 +2732,7 @@ TODO_LIST = [
     # ]
     # ['3',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2742,7 +2742,7 @@ TODO_LIST = [
     # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/4',
     # ['6_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_26_M3/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2757,7 +2757,7 @@ TODO_LIST = [
     # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/1_0000',
     # ['1_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_10_30_M5/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2769,7 +2769,7 @@ TODO_LIST = [
     # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/2',
     # ['3',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_01_M6/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2783,7 +2783,7 @@ TODO_LIST = [
     # 'Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/1_0000',
     # ['1_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt_GCamp3 x MCU-KO + DRS + Caps/2023_11_03_M8/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2800,7 +2800,7 @@ TODO_LIST = [
 
     # ['A_0015',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2809,7 +2809,7 @@ TODO_LIST = [
     # ],
     # ['A_0016',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/22_02_2023/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2823,7 +2823,7 @@ TODO_LIST = [
     # 'SNI_SHAM + PMX205/23_02_2023_M1/A_0008',
     # ['A_0008',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/23_02_2023_M2/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco SNI or SHAM + DRS  + PMX205 + Bicuculine/23_02_2023_M2/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2873,7 +2873,7 @@ TODO_LIST = [
     #
     # ['A_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_01/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2882,7 +2882,7 @@ TODO_LIST = [
     # ],
     # ['A',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
     #     'DISTORTION_TYPE' : 'AFFINE',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2891,7 +2891,7 @@ TODO_LIST = [
     # ],
     # ['A_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2900,7 +2900,7 @@ TODO_LIST = [
     # ],
     # ['A_0003',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2909,7 +2909,7 @@ TODO_LIST = [
     # ],
     # ['A_0004',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_14/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2918,7 +2918,7 @@ TODO_LIST = [
     # ],
     # ['A_0003',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_05/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_05/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2927,7 +2927,7 @@ TODO_LIST = [
     # ],
     # ['A_0005',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_09/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2022_12_09/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2936,7 +2936,7 @@ TODO_LIST = [
     # ],
     # ['08_03_2023_0002',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_08/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_08/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2945,7 +2945,7 @@ TODO_LIST = [
     # ],
     # ['09_03_2023_0002',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_09/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + Bicuculine/2023_03_09/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2963,7 +2963,7 @@ TODO_LIST = [
 
     # ['A_0002_0001',
     #     {
-    #     'DIRECTORY' : 'F:/Lab Work Files/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + C5a/2022_12_28/',
+    #     'DIRECTORY' : 'F:/LabWork/2-photon/Pirt GCamp3 x Thy1 RGeco + DRS + C5a/2022_12_28/',
     #     'DISTORTION_TYPE' : 'BILINEAR',
     #     'REFERENCE_FRAME' : 'first',
     #     'NUMBER_OF_REF_FRAMES' : 10,
@@ -2992,9 +2992,9 @@ TODO_LIST = [
 
     # # Organoid project:
     #
-    # ['Organoids/Alzheimer mRuby applications_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/'}],
+    # ['Organoids/Alzheimer mRuby applications_0001', {'DIRECTORY' : 'F:/LabWork/2-photon/'}],
     # 'Organoids/Control mRuby applications_0001',
-    # ['Organoids/Alzheimer mtRGeco applications_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/'}],
+    # ['Organoids/Alzheimer mtRGeco applications_0001', {'DIRECTORY' : 'F:/LabWork/2-photon/'}],
     # 'Organoids/Control mtRGeco applications_0001',
 
 
@@ -3025,7 +3025,7 @@ TODO_LIST = [
     # 'Microglia + C5a/2023_11_20/B',
     # 'Microglia + C5a/2023_11_20/C_0001',
     # 'Microglia + C5a/2023_11_20/D_0001',
-    # ['E_0001', {'DIRECTORY' : 'F:/Lab Work Files/2-photon/Microglia + C5a/2023_11_20/', 'DISTORTION_TYPE' : 'BILINEAR', 'REFERENCE_FRAME' : 'first', 'REFERENCE_CHANNEL' : 2, 'NUMBER_OF_REF_FRAMES' : 20, 'MOVING_AVERAGE' : 20,}],
+    # ['E_0001', {'DIRECTORY' : 'F:/LabWork/2-photon/Microglia + C5a/2023_11_20/', 'DISTORTION_TYPE' : 'BILINEAR', 'REFERENCE_FRAME' : 'first', 'REFERENCE_CHANNEL' : 2, 'NUMBER_OF_REF_FRAMES' : 20, 'MOVING_AVERAGE' : 20,}],
 
     # 'Microglia + C5a/2023_11_21/A_overview_3_0001',
     # 'Microglia + C5a/2023_11_21/C_0002',
@@ -3059,7 +3059,7 @@ TODO_LIST = [
 
     # ['Slice_1_Angiotensin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_06_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_06_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3071,7 +3071,7 @@ TODO_LIST = [
 
     # ['Slice_2_Angiotensin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_06_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_06_23/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3084,7 +3084,7 @@ TODO_LIST = [
 
     # ['Slice_1_Angiotensin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_23/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_07_23/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3099,7 +3099,7 @@ TODO_LIST = [
 
     # ['Slice_1b_Angiotensin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3110,7 +3110,7 @@ TODO_LIST = [
     #  ],
     # ['Slice_2_Angiotensin_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_07_24_M1/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3123,7 +3123,7 @@ TODO_LIST = [
 
     # ['Slice_1_Angiotensin_DCZ_application_0001',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3134,7 +3134,7 @@ TODO_LIST = [
     #  ],
     # ['Slice_2_Angiotensin_DCZ_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/HSD2-brainstem-slices/2025_07_24_M2/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3171,7 +3171,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_28/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_07_28/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -3183,7 +3183,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_29_M1/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_07_29_M1/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 1,
@@ -3195,7 +3195,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application',
     #     {
-    #         'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_07_30/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_07_30/',
     #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 1,
@@ -3207,7 +3207,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_08_04_M1/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_08_04_M1/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -3220,7 +3220,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application_0001',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_08_04_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_08_04_M2/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -3231,7 +3231,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_Caps_activators_application_0001_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_08_04_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_08_04_M2/',
     #      'DISTORTION_TYPE': 'BILINEAR',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 0,
@@ -3244,7 +3244,7 @@ TODO_LIST = [
 
     # ['Field_1_Caps_activators_application_0001_ch1_registered',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_08_04_M2/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_08_04_M2/',
     #      'DISTORTION_TYPE': 'AFFINE',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 1,
@@ -3255,7 +3255,7 @@ TODO_LIST = [
     #  ],
     # ['Field_1_Caps_activators_application',
     #  {
-    #      'DIRECTORY': 'F:/Lab Work Files/2-photon/Thy1-RGeco control/2025_08_04_M3/',
+    #      'DIRECTORY': 'F:/LabWork/2-photon/Thy1-RGeco control/2025_08_04_M3/',
     #      'DISTORTION_TYPE': 'TRANSLATION',
     #      'REFERENCE_FRAME': 'first',
     #      'REFERENCE_CHANNEL': 1,
