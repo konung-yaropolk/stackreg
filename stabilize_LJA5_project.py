@@ -54,7 +54,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = False
+MULTIPROCESSING = True
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -171,17 +171,132 @@ TODO_LIST = [
     #  ],
 
 
-    ['C2-Field_1_z-overview_mCherry',
+    # ['C2-Field_1_z-overview_mCherry',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'previous',
+    #         # 'REFERENCE_CHANNEL': 1,
+    #         'NUMBER_OF_REF_FRAMES': 1,
+    #         'MOVING_AVERAGE': 1,
+    #         'READ_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+    ['Field_3_exc935_GCaMP_z-sequence_green',
         {
-            'DIRECTORY': 'F:/LabWork/2-photon/LJA5 3D struct L10xPirt-Gcamp and mCherry descending LJA5 axons/2026_04_03/',
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
             'DISTORTION_TYPE': 'TRANSLATION',
             'REFERENCE_FRAME': 'previous',
             # 'REFERENCE_CHANNEL': 1,
             'NUMBER_OF_REF_FRAMES': 1,
             'MOVING_AVERAGE': 1,
-            'READ_TRANSFORM_MATRIX': True,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
         }
      ],
+
+    ['Field_3_exc935_GCaMP_z-sequence_red',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+
+    ['Field_3_exc1040_mCherry_z-sequence_green',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+    ['Field_3_exc1040_mCherry_z-sequence_red',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+
+
+
+    ['Field_4_exc935_GCaMP_z-sequence_green',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+    ['Field_4_exc935_GCaMP_z-sequence_red',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+
+    ['Field_4_exc1040_mCherry_z-sequence_green',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+    ['Field_4_exc1040_mCherry_z-sequence_red',
+        {
+            'DIRECTORY': 'F:\\LabWork\\2-photon\\LJA5 project L10xPirt-GCaMP3 DREADD 3D-structure\\2026_05_18\\',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'previous',
+            # 'REFERENCE_CHANNEL': 1,
+            'NUMBER_OF_REF_FRAMES': 1,
+            'MOVING_AVERAGE': 1,
+            'SAVE_TRANSFORM_MATRIX': True,
+            'READ_TRANSFORM_MATRIX': False,
+        }
+     ],
+
+
+
+
 
 
 
