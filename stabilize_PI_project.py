@@ -54,7 +54,7 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
@@ -1619,17 +1619,141 @@ TODO_LIST = [
     #  ],
 
 
-    ['Field_3_DRS',
-        {
-            'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
-            'DISTORTION_TYPE': 'TRANSLATION',
-            'REFERENCE_FRAME': 'first',
-            'REFERENCE_CHANNEL': 0,
-            'NUMBER_OF_REF_FRAMES': 50,
-            'MOVING_AVERAGE': 50,
-            'SAVE_TRANSFORM_MATRIX': True,
-        }
-     ],
+    # ['Field_3_DRS',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 50,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+
+
+
+
+
+
+
+# # SNI / SHAM
+
+
+    # ['Field_1_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_09_15/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 250,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_2_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_09_15/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_3_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_09_15/',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+    # ['Field_1_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'AFFINE',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_1_1',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'AFFINE',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_2_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'AFFINE',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_2_2_0001',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'AFFINE',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 100,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_3_',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 150,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+    # ['Field_3_2',
+    #     {
+    #         'DIRECTORY': 'F:/LabWork/2-photon/LJA5 project CNO Dynorphin and PI DRS Polyrythm/2025_10_10/',
+    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'REFERENCE_FRAME': 'first',
+    #         'REFERENCE_CHANNEL': 0,
+    #         'NUMBER_OF_REF_FRAMES': 100,
+    #         'MOVING_AVERAGE': 150,
+    #         'SAVE_TRANSFORM_MATRIX': True,
+    #     }
+    #  ],
+
+
+
+
+
+
+
+
+
 
 
 

@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pystackreg
 import tifffile
-import stabilize_LJA5_project as s
+import stabilize_Other_projects as s
 
 
 def file_finder(path, pattern, nonrecursive=False):
@@ -112,87 +112,134 @@ def process(
     print(img.dtype)
     # img = img.astype(np.float16)
 
-    # try:
+    try:
 
-    print('\n>>> ', file, '- started working with the file...')
-    # algorytm for 4-dimentional tiff:
-    if img.ndim == 4:
+        print('\n>>> ', file, '- started working with the file...')
+        # algorytm for 4-dimentional tiff:
+        if img.ndim == 4:
 
-        # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
-        # UPD kinda solved it but not sure. If not - fix it another way
+            # Here is a bug - sometimes array shape must be (1, len(img[0]), 3, 0)
+            # UPD kinda solved it but not sure. If not - fix it another way
 
-        if READ_TRANSFORM_MATRIX:
-            transform_matrix = np.load(os.path.abspath(
-                DIRECTORY + file + '_transform_matrix.npy'))
-        else:
-            transform_matrix_list = np.empty((1, len(img[0]), img.ndim-1, 0))
-            # print(img.shape)
-            transform_matrix = np.array([])
-
-        if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
-
-            for ch in range(len(img)):
-                if verbose:
-                    print('\n     Analyzing file:',
-                          file, ', channel', ch + 1, '...')
-
-                # print(img.shape, transform_matrix_list.shape)
-
-                if not READ_TRANSFORM_MATRIX:
-                    transform_matrix_list = np.append(
-                        transform_matrix_list,
-                        [register(
-                            img[ch],
-                            sr,
-                            REFERENCE_FRAME,
-                            NUMBER_OF_REF_FRAMES,
-                            MOVING_AVERAGE,
-                            TIME_AXIS,
-                            verbose=verbose,
-                        )
-                        ],
-                        axis=-1,
-                    )
-
-            if not READ_TRANSFORM_MATRIX:
-                print(transform_matrix_list.shape)
-                transform_matrix = np.mean(
-                    transform_matrix_list,
-                    axis=0,
-                ) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
-
-                if SAVE_TRANSFORM_MATRIX:
-                    np.save(
-                        os.path.abspath(DIRECTORY + file +
-                                        '_transform_matrix'),
-                        transform_matrix,
-                        allow_pickle=False,
-                        fix_imports=True,
-                    )
-
-        for ch in range(len(img)):
+            if READ_TRANSFORM_MATRIX:
+                transform_matrix = np.load(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix.npy'))
+            else:
+                transform_matrix_list = np.empty((1, len(img[0]), img.ndim-1, 0))
+                # print(img.shape)
+                transform_matrix = np.array([])
 
             if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
 
-                if verbose:
-                    print('\n     Transforming file',
-                          file, ', channel', ch + 1, '...')
+                for ch in range(len(img)):
+                    if verbose:
+                        print('\n     Analyzing file:',
+                            file, ', channel', ch + 1, '...')
 
-                out = transform(
-                    img[ch],
-                    sr,
-                    transform_matrix,
+                    # print(img.shape, transform_matrix_list.shape)
+
+                    if not READ_TRANSFORM_MATRIX:
+                        transform_matrix_list = np.append(
+                            transform_matrix_list,
+                            [register(
+                                img[ch],
+                                sr,
+                                REFERENCE_FRAME,
+                                NUMBER_OF_REF_FRAMES,
+                                MOVING_AVERAGE,
+                                TIME_AXIS,
+                                verbose=verbose,
+                            )
+                            ],
+                            axis=-1,
+                        )
+
+                if not READ_TRANSFORM_MATRIX:
+                    print(transform_matrix_list.shape)
+                    transform_matrix = np.mean(
+                        transform_matrix_list,
+                        axis=0,
+                    ) if not REFERENCE_CHANNEL else transform_matrix_list[REFERENCE_CHANNEL-1]
+
+                    if SAVE_TRANSFORM_MATRIX:
+                        np.save(
+                            os.path.abspath(DIRECTORY + file +
+                                            '_transform_matrix'),
+                            transform_matrix,
+                            allow_pickle=False,
+                            fix_imports=True,
+                        )
+
+            for ch in range(len(img)):
+
+                if not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
+
+                    if verbose:
+                        print('\n     Transforming file',
+                            file, ', channel', ch + 1, '...')
+
+                    out = transform(
+                        img[ch],
+                        sr,
+                        transform_matrix,
+                    )
+
+                else:
+                    out = img[ch]
+
+                tifffile.imwrite(
+                    '{}{}_ch{}{}.tif'.format(
+                        DIRECTORY,
+                        file,
+                        ch + 1,
+                        '_registered' if not SPLIT_ONLY else ''
+                    ),
+                    out,
+                    imagej=True,
+                    compression='zlib',
+                    metadata=metadata,
                 )
 
+        # algorytm for 3-dimentional tiff:
+        elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
+
+            if READ_TRANSFORM_MATRIX:
+                transform_matrix = np.load(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix.npy'))
+                print('Transform matrix found for this file')
             else:
-                out = img[ch]
+                transform_matrix = np.array([])
+                transform_matrix = register(
+                    img,
+                    sr,
+                    REFERENCE_FRAME,
+                    NUMBER_OF_REF_FRAMES,
+                    MOVING_AVERAGE,
+                    TIME_AXIS,
+                    verbose=False,
+                )
+
+            if SAVE_TRANSFORM_MATRIX:
+                np.save(os.path.abspath(
+                    DIRECTORY + file + '_transform_matrix'),
+                    transform_matrix,
+                    allow_pickle=True,
+                    # fix_imports=True,
+                )
+
+            out = transform(
+                img,
+                sr,
+                transform_matrix,
+            )
+
+            if verbose:
+                print('\n     Writing to file...')
 
             tifffile.imwrite(
-                '{}{}_ch{}{}.tif'.format(
+                '{}{}_registered.tif'.format(
                     DIRECTORY,
                     file,
-                    ch + 1,
-                    '_registered' if not SPLIT_ONLY else ''
                 ),
                 out,
                 imagej=True,
@@ -200,66 +247,19 @@ def process(
                 metadata=metadata,
             )
 
-    # algorytm for 3-dimentional tiff:
-    elif img.ndim == 3 and not SPLIT_ONLY:    # Bad construction with SPLIT_ONLY, to review
+        elif img.ndim == 3 and SPLIT_ONLY == True:
+            raise Exception(
+                'SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
 
-        if READ_TRANSFORM_MATRIX:
-            transform_matrix = np.load(os.path.abspath(
-                DIRECTORY + file + '_transform_matrix.npy'))
-            print('Transform matrix found for this file')
         else:
-            transform_matrix = np.array([])
-            transform_matrix = register(
-                img,
-                sr,
-                REFERENCE_FRAME,
-                NUMBER_OF_REF_FRAMES,
-                MOVING_AVERAGE,
-                TIME_AXIS,
-                verbose=False,
-            )
+            raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
 
-        if SAVE_TRANSFORM_MATRIX:
-            np.save(os.path.abspath(
-                DIRECTORY + file + '_transform_matrix'),
-                transform_matrix,
-                allow_pickle=True,
-                # fix_imports=True,
-            )
-
-        out = transform(
-            img,
-            sr,
-            transform_matrix,
-        )
-
-        if verbose:
-            print('\n     Writing to file...')
-
-        tifffile.imwrite(
-            '{}{}_registered.tif'.format(
-                DIRECTORY,
-                file,
-            ),
-            out,
-            imagej=True,
-            compression='zlib',
-            metadata=metadata,
-        )
-
-    elif img.ndim == 3 and SPLIT_ONLY == True:
-        raise Exception(
-            'SPLIT_ONLY option is activated, there is nothing to do with single-channel image file')
+    except Exception as e:
+        print('!!!  An error occured when processing {}:\n{}'.format(file, e))
+        return e
 
     else:
-        raise Exception('Wrong TIFF format, or check TIME_AXIS parameter')
-
-    # except Exception as e:
-    #     print('!!!  An error occured when processing {}:\n{}'.format(file, e))
-    #     return e
-
-    # else:
-    #     print('\n<<< ', file, '- File done!')
+        print('\n<<< ', file, '- File done!')
 
     # # immediatly clearing memory used by np arrays
     # finally:

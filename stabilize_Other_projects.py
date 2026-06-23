@@ -54,11 +54,11 @@ SAVE_TRANSFORM_MATRIX = True
 READ_TRANSFORM_MATRIX = False
 # Read transform matrix from .npy file with the same filename as original .tif
 
-MULTIPROCESSING = True
+MULTIPROCESSING = False
 # Use all available CPU cores.
 # Faster, but need much more RAM so can be unstable.
 
-PROCESSES_LIMIT = 100
+PROCESSES_LIMIT = 3
 # Maximum size of multiprocessing pull
 # Set the maximum of processes if there isn't enough RAM
 # Set 0 or None to use as many processes as possible
@@ -500,11 +500,11 @@ TODO_LIST = [
     # ['Field_5_0001',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_23/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 150,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
@@ -715,11 +715,11 @@ TODO_LIST = [
     # ['Field_4_0001',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 150,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
@@ -737,22 +737,22 @@ TODO_LIST = [
     # ['Field_6_0001',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 150,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
     # ['Field_7_0001',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/TRP project Ca-imaging with DRS + TRPC3, TRPA1, TRPM3 activators + Caps/2024_04_29/',
-    #         'DISTORTION_TYPE': 'BILINEAR',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 150,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
@@ -1282,14 +1282,25 @@ TODO_LIST = [
     # ['Field_2_0001',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
-    #         'DISTORTION_TYPE': 'AFFINE',
-    #         'REFERENCE_FRAME': 'first',
+    #         'DISTORTION_TYPE': 'TRANSLATION',
+    #         'REFERENCE_FRAME': 'previous',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 50,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
+    ['Field_2_0001_registered',
+        {
+            'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
+            'DISTORTION_TYPE': 'TRANSLATION',
+            'REFERENCE_FRAME': 'first',
+            'REFERENCE_CHANNEL': 0,
+            'NUMBER_OF_REF_FRAMES': 1050,
+            'MOVING_AVERAGE': 250,
+            'SAVE_TRANSFORM_MATRIX': True,
+        }
+     ],
     # ['Field_3',
     #     {
     #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2024_10_08_M2/',
@@ -2203,8 +2214,8 @@ TODO_LIST = [
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'NUMBER_OF_REF_FRAMES': 50,
+    #         'MOVING_AVERAGE': 250,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
@@ -2585,7 +2596,7 @@ TODO_LIST = [
 
     # ['Field_2_DRS',
     #     {
-    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2596,7 +2607,7 @@ TODO_LIST = [
     #  ],
     # ['Field_3_DRS',
     #     {
-    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2607,7 +2618,7 @@ TODO_LIST = [
     #  ],
     # ['Field_4_DRS',
     #     {
-    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2618,7 +2629,7 @@ TODO_LIST = [
     #  ],
     # ['Field_5_DRS',
     #     {
-    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
     #         'REFERENCE_CHANNEL': 0,
@@ -2629,15 +2640,16 @@ TODO_LIST = [
     #  ],
     # ['Field_6_DRS+CNQX+AP5_0001',
     #     {
-    #         'DIRECTORY': 'D:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
+    #         'DIRECTORY': 'F:/LabWork/2-photon/Presynaptic inhibition Pirt GCamp3/2025_02_07/',
     #         'DISTORTION_TYPE': 'BILINEAR',
     #         'REFERENCE_FRAME': 'first',
-    #         'REFERENCE_CHANNEL': 0,
-    #         'NUMBER_OF_REF_FRAMES': 100,
-    #         'MOVING_AVERAGE': 100,
+    #         'REFERENCE_CHANNEL': 1,
+    #         'NUMBER_OF_REF_FRAMES': 150,
+    #         'MOVING_AVERAGE': 50,
     #         'SAVE_TRANSFORM_MATRIX': True,
     #     }
     #  ],
+
 
 
 
@@ -3032,7 +3044,6 @@ TODO_LIST = [
     # 'Microglia + C5a/2023_11_21/D',
     # 'Microglia + C5a/2023_11_21/F',
     # 'Microglia + C5a/2023_11_21/G_0001',
-
 
 
 
